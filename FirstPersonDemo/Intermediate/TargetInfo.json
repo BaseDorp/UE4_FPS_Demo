@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstPersonDemo",
+			"Path": "D:\\Epic Games\\UnrealProjects\\FirstPersonDemo\\Source\\FirstPersonDemo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstPersonDemoEditor",
+			"Path": "D:\\Epic Games\\UnrealProjects\\FirstPersonDemo\\Source\\FirstPersonDemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

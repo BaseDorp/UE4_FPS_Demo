@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstPersonDemo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{93628CFC-07A0-41A4-A8B3-82A6780D5688}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPersonDemo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstPersonDemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{81DF43F1-44AA-4C2F-8DC7-CF20A716E474}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstPersonDemo">
+      <UniqueIdentifier>{9DE7FC0A-3AA9-4EB2-B614-8ADD2385C9BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPersonDemo\FirstPersonDemo.Build.cs">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstPersonDemo\FirstPersonDemo.cpp">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonDemo\FirstPersonDemo.h">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonDemo\FirstPersonDemoGameModeBase.cpp">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonDemo\FirstPersonDemoGameModeBase.h">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

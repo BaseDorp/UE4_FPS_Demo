@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Epic Games\\UnrealProjects\\FirstPersonDemo\\Source\\FirstPersonDemo\\FirstPersonDemo.Build.cs",
+		"D:\\Epic Games\\UnrealProjects\\FirstPersonDemo\\Source\\FirstPersonDemo.Target.cs",
+		"D:\\Epic Games\\UnrealProjects\\FirstPersonDemo\\Source\\FirstPersonDemoEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

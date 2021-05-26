@@ -253,17 +253,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I D:\VS2019Enterprise\VC\Tools\MSVC\14.28.29910\INCLUDE
+/I D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910\INCLUDE
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I "D:\Epic Games\UnrealProjects\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine"
-/Yc"D:\Epic Games\UnrealProjects\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Epic Games\UnrealProjects\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Epic Games\UnrealProjects\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\Epic Games\UnrealProjects\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/I "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine"
+/Yc"D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

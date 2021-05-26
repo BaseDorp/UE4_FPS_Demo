@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstPersonDemo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{93628CFC-07A0-41A4-A8B3-82A6780D5688}</UniqueIdentifier>
+      <UniqueIdentifier>{84D0DD79-52FB-41A4-BFCE-F3C3AB909BF9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstPersonDemo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{81DF43F1-44AA-4C2F-8DC7-CF20A716E474}</UniqueIdentifier>
+      <UniqueIdentifier>{2AC7AA20-F4D1-4826-86CD-52A6B3BBE8A7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstPersonDemo">
-      <UniqueIdentifier>{9DE7FC0A-3AA9-4EB2-B614-8ADD2385C9BC}</UniqueIdentifier>
+      <UniqueIdentifier>{8EC1FF84-8A11-42E3-A7A1-A7FCE53C7081}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstPersonDemo\FirstPersonDemo.Build.cs">
       <Filter>Source\FirstPersonDemo</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\FirstPersonDemo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstPersonDemo\FirstPersonDemoGameModeBase.h">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonDemo\FPSCharacter.cpp">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonDemo\FPSCharacter.h">
       <Filter>Source\FirstPersonDemo</Filter>
     </ClInclude>
   </ItemGroup>

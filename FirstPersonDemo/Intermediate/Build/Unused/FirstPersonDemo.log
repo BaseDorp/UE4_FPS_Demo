@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+  Building FirstPersonDemoEditor...
+  Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-FirstPersonDemo.lib
+       Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.exp
+    [2/3] UE4Editor-FirstPersonDemo.dll
+       Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.suppressed.exp
+    [3/3] FirstPersonDemoEditor.target
+  Total time in Parallel executor: 0.98 seconds
+  Total execution time: 1.69 seconds

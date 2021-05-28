@@ -1,0 +1,1613 @@
+﻿Log file open, 05/26/21 10:28:44
+LogInit: Display: Running engine for game: FirstPersonDemo
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 8.429849
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.26-15.28.47:193][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.26-15.28.47:193][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:198][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.26-15.28.47:198][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.26-15.28.47:199][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:199][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.26-15.28.47:356][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:356][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.26-15.28.47:357][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.26-15.28.47:360][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.26-15.28.47:360][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.26-15.28.47:372][  0]LogHAL: Display: Platform has ~ 16 GB [17044414464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.26-15.28.47:373][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.26-15.28.47:373][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.26-15.28.47:373][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.26-15.28.47:374][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Scalability.ini]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.26-15.28.47:375][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.26-15.28.47:396][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.26-15.28.47:396][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.26-15.28.47:396][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.26-15.28.47:396][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Config/Windows/Engine.ini]
+[2021.05.26-15.28.47:410][  0]LogInit: Computer: LAPTOPCYBERPOWE
+[2021.05.26-15.28.47:410][  0]LogInit: User: SamHirsch
+[2021.05.26-15.28.47:410][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.26-15.28.47:410][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.26-15.28.47:410][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.26-15.28.47:410][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.26-15.28.47:410][  0]LogMemory: Process Physical Memory: 116.04 MB used, 116.04 MB peak
+[2021.05.26-15.28.47:410][  0]LogMemory: Process Virtual Memory: 105.27 MB used, 105.27 MB peak
+[2021.05.26-15.28.47:410][  0]LogMemory: Physical Memory: 11451.69 MB used,  4803.13 MB free, 16254.82 MB total
+[2021.05.26-15.28.47:410][  0]LogMemory: Virtual Memory: 5171.84 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.05.26-15.28.47:418][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.26-15.28.48:554][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.26-15.28.48:569][  0]LogInit: Using OS detected language (en-US).
+[2021.05.26-15.28.48:569][  0]LogInit: Using OS detected locale (en-US).
+[2021.05.26-15.28.48:700][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.26-15.28.49:747][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.26-15.28.50:598][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.26-15.28.50:598][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.26-15.28.54:492][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.26-15.28.54:492][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.26-15.28.54:492][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.26-15.28.54:611][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2021.05.26-15.28.54:611][  0]LogD3D11RHI:       6052/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.26-15.28.54:643][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.05.26-15.28.54:643][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.05.26-15.28.54:646][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.26-15.28.54:646][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.26-15.28.54:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.26-15.28.54:680][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.26-15.28.54:680][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.26-15.28.54:687][  0]LogWindows: EnumDisplayDevices:
+[2021.05.26-15.28.54:687][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.05.26-15.28.54:687][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.05.26-15.28.54:688][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.05.26-15.28.54:688][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2021.05.26-15.28.54:688][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.05.26-15.28.54:688][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2021.05.26-15.28.54:689][  0]LogD3D11RHI:   Driver Version: 466.47 (internal:27.21.14.6647, unified:466.47)
+[2021.05.26-15.28.54:689][  0]LogD3D11RHI:      Driver Date: 5-13-2021
+[2021.05.26-15.28.54:690][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.05.26-15.28.54:800][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.26-15.28.54:801][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.26-15.28.54:801][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.26-15.28.55:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.26-15.28.57:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.26-15.28.57:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.26-15.28.57:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.26-15.28.57:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.26-15.28.57:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.26-15.28.57:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.26-15.28.57:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.26-15.28.57:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.26-15.28.57:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.26-15.28.57:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.26-15.28.57:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.26-15.28.57:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.26-15.28.57:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.26-15.28.57:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.26-15.28.57:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.26-15.28.57:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.26-15.28.57:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.26-15.28.57:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.26-15.28.57:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.26-15.28.57:671][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.26-15.28.57:793][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.26-15.28.58:691][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Intermediate/Shaders/WorkingDirectory/12444/).
+[2021.05.26-15.28.58:691][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sam Hirsch/AppData/Local/Temp/UnrealShaderWorkingDir/6B650E3B4198ACD2DE151D8271F8090B/'.
+[2021.05.26-15.28.58:721][  0]LogXGEController: Cleaning working directory: C:/Users/Sam Hirsch/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.26-15.28.58:722][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.26-15.28.58:722][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.26-15.28.58:722][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.26-15.29.05:033][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.26-15.29.05:265][  0]LogDerivedDataCache: Loaded boot cache 0.23s 82MB C:/Users/Sam Hirsch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.26-15.29.05:266][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sam Hirsch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.26-15.29.05:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.26-15.29.05:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.26-15.29.05:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.26-15.29.05:266][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.26-15.29.05:368][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.26-15.29.05:368][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.26-15.29.05:368][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.26-15.29.05:370][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sam Hirsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.26-15.29.05:370][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.26-15.29.05:370][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.26-15.29.05:711][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.26-15.29.05:843][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.26-15.29.07:387][  0]LogAssetRegistry: FAssetRegistry took 0.0884 seconds to start up
+[2021.05.26-15.29.16:709][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.26-15.29.18:860][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.26-15.29.18:860][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.26-15.29.18:860][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.26-15.29.18:860][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.26-15.29.18:902][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.26-15.29.19:611][  0]LogNetVersion: FirstPersonDemo 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4043045611)
+[2021.05.26-15.29.35:419][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B02C53D100), frame # 0
+[2021.05.26-15.29.35:419][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B02C3D11C0), frame # 0
+[2021.05.26-15.29.35:427][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B02C41DC00), frame # 0
+[2021.05.26-15.29.36:099][  0]LogPackageLocalizationCache: Processed 17 localized package path(s) for 1 prioritized culture(s) in 0.145848 seconds
+[2021.05.26-15.29.36:162][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
+[2021.05.26-15.29.36:174][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
+[2021.05.26-15.29.36:174][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.26-15.29.43:437][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.26-15.29.43:474][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.26-15.29.44:605][  0]SourceControl: Source control is disabled
+[2021.05.26-15.29.44:606][  0]SourceControl: Source control is disabled
+[2021.05.26-15.29.44:698][  0]SourceControl: Source control is disabled
+[2021.05.26-15.29.44:733][  0]SourceControl: Source control is disabled
+[2021.05.26-15.29.44:784][  0]SourceControl: Source control is disabled
+[2021.05.26-15.29.47:994][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.26-15.29.48:164][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.26-15.29.48:164][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.26-15.29.51:368][  0]LogEngine: Initializing Engine...
+[2021.05.26-15.29.51:487][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.26-15.29.51:598][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.029 s
+[2021.05.26-15.29.52:277][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.26-15.29.53:561][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.26-15.29.53:561][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B02E2EDA00), frame # 0
+[2021.05.26-15.29.53:574][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B02E306E80), frame # 0
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-15.29.53:958][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-15.29.53:958][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-15.29.53:970][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-15.29.53:970][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-15.29.54:099][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-15.29.54:099][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-15.29.54:145][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-15.29.54:170][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-15.29.54:187][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-15.29.54:201][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-15.29.54:246][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-15.29.54:247][  0]LogInit: FAudioDevice initialized.
+[2021.05.26-15.29.54:351][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.26-15.29.54:432][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Sam Hirsch/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.26-15.29.54:433][  0]LogInit: Texture streaming: Enabled
+[2021.05.26-15.29.54:689][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.26-15.29.54:689][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.26-15.29.54:766][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.26-15.29.55:289][  0]LogInit: Transaction tracking system initialized
+[2021.05.26-15.29.55:723][  0]BlueprintLog: New page: Editor Load
+[2021.05.26-15.29.57:699][  0]LocalizationService: Localization service is disabled
+[2021.05.26-15.30.03:256][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/' took 0.04s
+[2021.05.26-15.30.03:256][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.26-15.30.03:256][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.26-15.30.09:640][  0]SourceControl: Source control is disabled
+[2021.05.26-15.30.09:680][  0]LogUnrealEdMisc: Loading editor; pre map load, took 113.388
+[2021.05.26-15.30.09:833][  0]Cmd: MAP LOAD FILE="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.26-15.30.09:886][  0]LightingResults: New page: Lighting Build
+[2021.05.26-15.30.10:299][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.26-15.30.10:299][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-15.30.10:405][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-15.30.10:578][  0]MapCheck: New page: Map Check
+[2021.05.26-15.30.10:578][  0]LightingResults: New page: Lighting Build
+[2021.05.26-15.30.13:447][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B02E2EDA00), frame # 0
+[2021.05.26-15.30.13:447][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B02E306E80), frame # 0
+[2021.05.26-15.30.13:480][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.05.26-15.30.17:697][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-15.30.17:697][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B01D4B0C00), frame # 0
+[2021.05.26-15.30.17:697][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B01D3F2AC0), frame # 0
+[2021.05.26-15.30.19:565][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.26-15.30.20:086][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.05.26-15.30.20:149][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.26-15.30.20:165][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.541ms to complete.
+[2021.05.26-15.30.20:165][  0]LogFileHelpers: Loading map 'Minimal_Default' took 10.456
+[2021.05.26-15.30.23:116][  0]LogUnrealEdMisc: Total Editor Startup Time, took 126.824
+[2021.05.26-15.30.26:321][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.26:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.26:384][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.26:391][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.26:567][  0]LogCollectionManager: Loaded 0 collections in 0.001733 seconds
+[2021.05.26-15.30.27:317][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Collections/' took 0.00s
+[2021.05.26-15.30.27:317][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/Developers/SamHirsch/Collections/' took 0.00s
+[2021.05.26-15.30.27:317][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/Collections/' took 0.00s
+[2021.05.26-15.30.27:318][  0]LogContentBrowser: Native class hierarchy populated in 0.1390 seconds. Added 3409 classes and 807 folders.
+[2021.05.26-15.30.27:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.05.26-15.30.30:055][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.05.26-15.30.30:164][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.05.26-15.30.31:423][  0]LogSlate: Took 0.048831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.26-15.30.31:494][  0]LogSlate: Took 0.018143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.26-15.30.31:769][  0]LogSlate: Took 0.019500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.26-15.30.33:747][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.05.26-15.30.36:315][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.05.26-15.30.36:315][  0]LogLoad: (Engine Initialization) Total time: 140.02 seconds
+[2021.05.26-15.30.36:315][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.26-15.30.37:648][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.26-15.30.38:927][  2]LogAssetRegistry: Asset discovery search completed in 91.5831 seconds
+[2021.05.26-15.30.39:114][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.044139 seconds (updated 0 objects)
+[2021.05.26-15.30.39:370][  2]LogSlate: Took 0.017922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.26-15.30.39:743][  6]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.26-15.30.46:592][350]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-15.30.46:822][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-15.30.46:870][350]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 5:30:46 AM)
+[2021.05.26-15.30.47:018][350]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.26-15.30.47:020][350]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.26-15.30.47:038][350]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-15.30.47:114][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075581s)
+[2021.05.26-15.30.47:146][350]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-15.30.47:146][350]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B04215CA00), frame # 350
+[2021.05.26-15.30.47:146][350]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04218AAC0), frame # 350
+[2021.05.26-15.30.47:172][350]LogPlayLevel: PIE: World Init took: (0.058701s)
+[2021.05.26-15.30.47:188][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.150888s)
+[2021.05.26-15.30.47:213][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-15.30.47:216][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-15.30.47:216][350]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-15.30.47:216][350]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-15.30.47:222][350]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-15.30.47:222][350]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-15.30.47:243][350]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-15.30.47:243][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-15.30.47:243][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-15.30.47:243][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-15.30.47:243][350]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-15.30.47:256][350]LogInit: FAudioDevice initialized.
+[2021.05.26-15.30.47:448][350]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-15.30.47:688][350]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-10.30.47
+[2021.05.26-15.30.47:734][350]LogWorld: Bringing up level for play took: 0.028466
+[2021.05.26-15.30.47:753][350]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.05.26-15.30.47:996][350]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.05.26-15.30.48:322][350]PIE: Server logged in
+[2021.05.26-15.30.48:337][350]PIE: Play in editor total start time 1.709 seconds.
+[2021.05.26-15.30.52:241][545]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.26-15.30.52:241][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.52:241][545]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-15.30.52:325][545]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-15.30.52:338][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-15.30.52:434][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-15.30.52:437][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-15.30.52:819][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-15.30.52:917][545]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04218AAC0), frame # 545
+[2021.05.26-15.30.52:918][545]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B04215CA00), frame # 545
+[2021.05.26-15.30.53:101][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.05.26-15.30.53:268][546]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.05.26-15.40.36:684][272]LogSlate: Took 0.016705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.26-15.42.22:622][817]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/FirstPersonDemo.FPSCharacter
+[2021.05.26-16.03.24:434][547]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0002.dll
+[2021.05.26-16.03.26:130][553]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.26-16.03.26:198][553]LogClass: Could not find existing class FPSCharacter in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.26-16.03.26:198][553]LogClass: Function MoveForwardBackward is new.
+[2021.05.26-16.03.26:199][553]LogClass: Function MoveRightLeft is new.
+[2021.05.26-16.03.26:204][553]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2021.05.26-16.03.26:377][553]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2021.05.26-16.03.26:378][553]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.26-16.03.27:523][553]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 3409 classes and 807 folders.
+[2021.05.26-16.03.27:643][553]Display: HotReload took  1.5s.
+[2021.05.26-16.03.31:024][649]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.26-16.03.31:037][649]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.26-16.03.31:598][657]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.03.31:607][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.03.31:607][657]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:03:31 AM)
+[2021.05.26-16.03.31:608][657]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.03.31:611][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003491s)
+[2021.05.26-16.03.31:613][657]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.03.31:613][657]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B04C806C00), frame # 12657
+[2021.05.26-16.03.31:613][657]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04D0011C0), frame # 12657
+[2021.05.26-16.03.31:613][657]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2021.05.26-16.03.31:613][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005653s)
+[2021.05.26-16.03.31:625][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.03.31:626][657]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.03.31:626][657]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.03.31:626][657]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.03.31:677][657]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.03.31:677][657]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.03.31:699][657]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.03.31:700][657]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.03.31:700][657]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.03.31:700][657]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.03.31:700][657]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.03.31:712][657]LogInit: FAudioDevice initialized.
+[2021.05.26-16.03.31:719][657]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.03.31:720][657]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.03.31
+[2021.05.26-16.03.31:720][657]LogWorld: Bringing up level for play took: 0.000621
+[2021.05.26-16.03.31:721][657]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.05.26-16.03.31:722][657]PIE: Server logged in
+[2021.05.26-16.03.31:723][657]PIE: Play in editor total start time 0.12 seconds.
+[2021.05.26-16.03.37:188][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.03.37:188][974]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.03.37:189][974]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.03.37:189][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.03.37:197][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.03.37:198][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.03.37:222][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.03.37:224][974]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B04C806C00), frame # 12974
+[2021.05.26-16.03.37:243][974]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04D0011C0), frame # 12974
+[2021.05.26-16.03.37:244][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.05.26-16.03.37:269][975]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.05.26-16.08.28:766][278]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0003.dll
+[2021.05.26-16.08.30:143][283]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.26-16.08.30:283][283]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2021.05.26-16.08.30:285][283]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.05.26-16.08.30:324][283]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3409 classes and 807 folders.
+[2021.05.26-16.08.30:331][283]Display: HotReload took  0.2s.
+[2021.05.26-16.09.42:014][535]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.09.42:026][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.09.42:026][535]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:09:42 AM)
+[2021.05.26-16.09.42:026][535]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.09.42:031][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004765s)
+[2021.05.26-16.09.42:033][535]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.09.42:033][535]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B041D8FE00), frame # 17535
+[2021.05.26-16.09.42:071][535]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04B9B3240), frame # 17535
+[2021.05.26-16.09.42:071][535]LogPlayLevel: PIE: World Init took: (0.039550s)
+[2021.05.26-16.09.42:071][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.044791s)
+[2021.05.26-16.09.42:112][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.09.42:114][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.09.42:114][535]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.09.42:114][535]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.09.42:155][535]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.09.42:155][535]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.09.42:182][535]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.09.42:182][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.09.42:182][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.09.42:182][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.09.42:183][535]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.09.42:199][535]LogInit: FAudioDevice initialized.
+[2021.05.26-16.09.42:207][535]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.09.42:209][535]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.09.42
+[2021.05.26-16.09.42:210][535]LogWorld: Bringing up level for play took: 0.000712
+[2021.05.26-16.09.42:210][535]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.05.26-16.09.42:212][535]PIE: Server logged in
+[2021.05.26-16.09.42:213][535]PIE: Play in editor total start time 0.191 seconds.
+[2021.05.26-16.09.46:876][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.09.46:876][810]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.09.46:876][810]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.09.46:877][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.09.46:883][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.09.46:885][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.09.46:921][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.09.46:922][810]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04B9B3240), frame # 17810
+[2021.05.26-16.09.46:922][810]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B041D8FE00), frame # 17810
+[2021.05.26-16.09.46:923][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.05.26-16.09.46:946][811]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.05.26-16.09.49:547][911]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.09.49:555][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.09.49:555][911]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:09:49 AM)
+[2021.05.26-16.09.49:555][911]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.09.49:560][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004418s)
+[2021.05.26-16.09.49:562][911]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.09.49:562][911]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B04CD5E400), frame # 17911
+[2021.05.26-16.09.49:562][911]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B06DFAAD40), frame # 17911
+[2021.05.26-16.09.49:562][911]LogPlayLevel: PIE: World Init took: (0.002104s)
+[2021.05.26-16.09.49:562][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006845s)
+[2021.05.26-16.09.49:576][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.09.49:577][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.09.49:577][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.09.49:578][911]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.09.49:578][911]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.09.49:588][911]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.09.49:588][911]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.09.49:619][911]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.09.49:620][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.09.49:620][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.09.49:620][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.09.49:620][911]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.09.49:638][911]LogInit: FAudioDevice initialized.
+[2021.05.26-16.09.49:650][911]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.09.49:651][911]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.09.49
+[2021.05.26-16.09.49:651][911]LogWorld: Bringing up level for play took: 0.000706
+[2021.05.26-16.09.49:651][911]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.05.26-16.09.49:678][911]PIE: Server logged in
+[2021.05.26-16.09.49:678][911]PIE: Play in editor total start time 0.124 seconds.
+[2021.05.26-16.09.56:766][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.09.56:766][332]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.09.56:766][332]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.09.56:766][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.09.56:774][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.09.56:775][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.09.56:820][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.09.56:846][332]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B06DFAAD40), frame # 18332
+[2021.05.26-16.09.56:846][332]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B04CD5E400), frame # 18332
+[2021.05.26-16.09.56:846][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.05.26-16.09.56:874][333]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.05.26-16.10.39:434][ 61]Candidate modules for hot reload:
+[2021.05.26-16.10.39:434][ 61]  FirstPersonDemo
+[2021.05.26-16.10.39:434][ 61]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,3728 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.26-16.10.39:438][ 61]Warning: Starting HotReload took  0.1s.
+[2021.05.26-16.10.50:831][505]CompilerResultsLog: New page: Compilation - May 26, 2021, 6:10:50 AM
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Parsing headers for FirstPersonDemoEditor
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   Running UnrealHeaderTool "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Sam Hirsch\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Reflection code generated for FirstPersonDemoEditor in 7.8356679 seconds
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [1/6] FirstPersonDemo.init.gen.cpp
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [2/6] FPSCharacter.gen.cpp
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [3/6] FPSCharacter.cpp
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [4/6] UE4Editor-FirstPersonDemo-3728.lib
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-3728.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-3728.exp
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [5/6] UE4Editor-FirstPersonDemo-3728.dll
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-3728.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-3728.suppressed.exp
+[2021.05.26-16.10.50:885][505]CompilerResultsLog:   [6/6] FirstPersonDemoEditor.target
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Total time in Parallel executor: 2.23 seconds
+[2021.05.26-16.10.50:885][505]CompilerResultsLog: Total execution time: 11.22 seconds
+[2021.05.26-16.10.50:885][505]LogMainFrame: MainFrame: Module compiling took 11.468 seconds
+[2021.05.26-16.10.50:909][505]LogClass: Could not find existing class FPSCharacter in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.26-16.10.50:909][505]LogClass: Function EndJump is new.
+[2021.05.26-16.10.50:909][505]LogClass: Function MoveForwardBackward is new.
+[2021.05.26-16.10.50:909][505]LogClass: Function MoveRightLeft is new.
+[2021.05.26-16.10.50:909][505]LogClass: Function StartJump is new.
+[2021.05.26-16.10.50:913][505]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2021.05.26-16.10.50:921][505]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2021.05.26-16.10.50:922][505]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.26-16.10.50:956][505]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3409 classes and 807 folders.
+[2021.05.26-16.10.50:956][505]Display: HotReload took 11.6s.
+[2021.05.26-16.10.53:779][565]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.10.53:791][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.10.53:791][565]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:10:53 AM)
+[2021.05.26-16.10.53:815][565]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.10.53:821][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006164s)
+[2021.05.26-16.10.53:822][565]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.10.53:823][565]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B04C804600), frame # 19565
+[2021.05.26-16.10.53:823][565]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04BF89440), frame # 19565
+[2021.05.26-16.10.53:823][565]LogPlayLevel: PIE: World Init took: (0.001932s)
+[2021.05.26-16.10.53:823][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008315s)
+[2021.05.26-16.10.53:835][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.10.53:837][565]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.10.53:837][565]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.10.53:838][565]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.10.53:838][565]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.10.53:846][565]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.10.53:846][565]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.10.53:871][565]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.10.53:871][565]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.10.53:871][565]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.10.53:871][565]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.10.53:872][565]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.10.53:887][565]LogInit: FAudioDevice initialized.
+[2021.05.26-16.10.53:895][565]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.10.53:898][565]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.10.53
+[2021.05.26-16.10.53:898][565]LogWorld: Bringing up level for play took: 0.001055
+[2021.05.26-16.10.53:898][565]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.05.26-16.10.53:901][565]PIE: Server logged in
+[2021.05.26-16.10.53:902][565]PIE: Play in editor total start time 0.115 seconds.
+[2021.05.26-16.10.58:546][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.10.58:546][839]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.10.58:546][839]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.10.58:546][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.10.58:556][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.10.58:558][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.10.58:587][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.10.58:588][839]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04BF89440), frame # 19839
+[2021.05.26-16.10.58:588][839]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B04C804600), frame # 19839
+[2021.05.26-16.10.58:588][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.26-16.10.58:611][840]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.05.26-16.13.31:940][772]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0005.dll
+[2021.05.26-16.13.32:635][775]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.26-16.13.32:700][775]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2021.05.26-16.13.32:702][775]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.05.26-16.13.32:744][775]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3409 classes and 807 folders.
+[2021.05.26-16.13.32:748][775]Display: HotReload took  0.1s.
+[2021.05.26-16.13.35:815][810]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.13.35:826][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.13.35:827][810]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:13:35 AM)
+[2021.05.26-16.13.35:827][810]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.13.35:831][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003993s)
+[2021.05.26-16.13.35:832][810]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.13.35:832][810]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B04215F400), frame # 20810
+[2021.05.26-16.13.35:832][810]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04BF8AD40), frame # 20810
+[2021.05.26-16.13.35:833][810]LogPlayLevel: PIE: World Init took: (0.001900s)
+[2021.05.26-16.13.35:833][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006013s)
+[2021.05.26-16.13.35:845][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.13.35:847][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.13.35:847][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.13.35:848][810]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.13.35:848][810]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.13.35:855][810]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.13.35:855][810]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.13.35:879][810]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.13.35:880][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.13.35:880][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.13.35:880][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.13.35:880][810]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.13.35:895][810]LogInit: FAudioDevice initialized.
+[2021.05.26-16.13.35:903][810]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.13.35:905][810]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.13.35
+[2021.05.26-16.13.35:905][810]LogWorld: Bringing up level for play took: 0.000589
+[2021.05.26-16.13.35:905][810]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.05.26-16.13.35:907][810]PIE: Server logged in
+[2021.05.26-16.13.35:909][810]PIE: Play in editor total start time 0.087 seconds.
+[2021.05.26-16.13.51:115][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.13.51:115][717]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.13.51:116][717]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.13.51:116][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.13.51:121][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.13.51:122][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.13.51:149][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.13.51:150][717]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04BF8AD40), frame # 21717
+[2021.05.26-16.13.51:150][717]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B04215F400), frame # 21717
+[2021.05.26-16.13.51:151][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.26-16.13.51:174][718]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.05.26-16.14.02:848][409]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-16.14.02:855][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-16.14.02:855][409]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:14:02 AM)
+[2021.05.26-16.14.02:855][409]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.14.02:859][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003242s)
+[2021.05.26-16.14.02:860][409]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.26-16.14.02:860][409]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B05A8FA000), frame # 22409
+[2021.05.26-16.14.02:860][409]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B04BF5D580), frame # 22409
+[2021.05.26-16.14.02:861][409]LogPlayLevel: PIE: World Init took: (0.002008s)
+[2021.05.26-16.14.02:861][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005387s)
+[2021.05.26-16.14.02:872][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-16.14.02:872][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-16.14.02:873][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-16.14.02:873][409]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-16.14.02:873][409]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-16.14.02:880][409]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-16.14.02:880][409]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-16.14.02:901][409]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.26-16.14.02:902][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-16.14.02:902][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-16.14.02:902][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-16.14.02:902][409]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-16.14.02:915][409]LogInit: FAudioDevice initialized.
+[2021.05.26-16.14.02:923][409]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.26-16.14.02:925][409]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-11.14.02
+[2021.05.26-16.14.02:925][409]LogWorld: Bringing up level for play took: 0.001030
+[2021.05.26-16.14.02:926][409]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.05.26-16.14.02:928][409]PIE: Server logged in
+[2021.05.26-16.14.02:929][409]PIE: Play in editor total start time 0.074 seconds.
+[2021.05.26-16.14.17:616][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.14.17:616][286]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.26-16.14.17:616][286]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-16.14.17:616][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.14.17:622][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-16.14.17:624][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-16.14.17:634][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-16.14.17:650][286]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B04BF5D580), frame # 23286
+[2021.05.26-16.14.17:650][286]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B05A8FA000), frame # 23286
+[2021.05.26-16.14.17:651][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.05.26-16.14.17:717][288]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.05.26-16.14.57:706][669]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.26-16.14.57:716][669]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.26-19.56.30:450][485]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{496d376e-bbd4-44df-a6ea-964b352b5987}.
+[2021.05.26-19.56.30:451][485]LogTemp: Resetting audio stream to device id 
+[2021.05.26-19.56.30:488][485]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-19.56.30:488][485]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-19.56.35:245][498]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-03.49.25:828][498]LogTemp: Resetting audio stream to device id 
+[2021.05.27-03.49.25:902][498]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-03.49.25:902][498]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-03.49.27:132][499]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.27-03.49.27:205][499]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.27-03.49.27:209][499]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.27-03.49.27:238][499]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B877B4776-4E97-6C86-305F-43981C09B7A4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=5e90ac4f4dec89963bac268db9d79df9%7C165f927ac7d94a9db5ac94724233f04b%7C8d56af57-07ea-4387-be05-7d0408f5169f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: libcurl info message cache 0 (Connection 87 seems to be dead!)
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: libcurl info message cache 1 (Closing connection 87)
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.05.27-03.49.27:266][500]LogHttp: Warning: 000001B04CFEE400: libcurl info message cache 3 (Closing connection 88)
+[2021.05.27-03.49.27:267][500]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B877B4776-4E97-6C86-305F-43981C09B7A4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=5e90ac4f4dec89963bac268db9d79df9%7C165f927ac7d94a9db5ac94724233f04b%7C8d56af57-07ea-4387-be05-7d0408f5169f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.05.27-03.49.29:786][502]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.27-03.49.29:786][502]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.27-03.49.29:786][502]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.27-03.49.29:809][502]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-03.49.30:919][506]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.05.27-03.49.30:919][506]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.05.27-03.49.30:919][506]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.05.27-03.49.31:158][506]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-04.21.40:826][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2021.05.27-04.21.43:217][450]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 125 classes and 0 folders.
+[2021.05.27-04.21.50:368][641]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2021.05.27-04.21.53:663][822]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-04.21.53:663][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-04.21.53:876][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2021.05.27-04.21.54:625][822]LogSlate: Took 0.075814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.27-04.21.55:850][864]LogSlate: Took 0.031022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.27-04.22.00:496][105]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.05.27-04.22.03:156][241]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2021.05.27-04.22.05:678][382]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.27-04.22.05:690][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.27-04.22.05:690][382]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:22:05 PM)
+[2021.05.27-04.22.05:691][382]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-04.22.05:699][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007438s)
+[2021.05.27-04.22.05:701][382]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.27-04.22.05:701][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B0899FA400), frame # 72382
+[2021.05.27-04.22.05:701][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B0899FD440), frame # 72382
+[2021.05.27-04.22.05:702][382]LogPlayLevel: PIE: World Init took: (0.003049s)
+[2021.05.27-04.22.05:702][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010931s)
+[2021.05.27-04.22.05:890][382]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.27-04.22.05:902][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.27-04.22.05:902][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.27-04.22.05:903][382]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.27-04.22.05:903][382]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.27-04.22.06:084][382]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-04.22.06:084][382]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-04.22.06:127][382]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.27-04.22.06:128][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.27-04.22.06:128][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.27-04.22.06:128][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.27-04.22.06:129][382]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.27-04.22.06:153][382]LogInit: FAudioDevice initialized.
+[2021.05.27-04.22.06:171][382]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.27-04.22.06:174][382]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-23.22.06
+[2021.05.27-04.22.06:175][382]LogWorld: Bringing up level for play took: 0.001950
+[2021.05.27-04.22.06:175][382]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.05.27-04.22.06:178][382]PIE: Server logged in
+[2021.05.27-04.22.06:179][382]PIE: Play in editor total start time 0.491 seconds.
+[2021.05.27-04.22.14:199][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-04.22.14:199][854]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-04.22.14:199][854]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-04.22.14:199][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-04.22.14:207][854]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.27-04.22.14:210][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-04.22.14:230][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-04.22.14:248][854]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B0899FA400), frame # 72854
+[2021.05.27-04.22.14:248][854]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B0899FD440), frame # 72854
+[2021.05.27-04.22.14:250][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.05.27-04.22.14:271][855]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.05.27-04.26.18:092][751]Candidate modules for hot reload:
+[2021.05.27-04.26.18:092][751]  FirstPersonDemo
+[2021.05.27-04.26.18:092][751]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,1924 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.27-04.26.18:663][751]Warning: Starting HotReload took  0.6s.
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog: New page: Compilation - May 26, 2021, 6:27:33 PM
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog: Parsing headers for FirstPersonDemoEditor
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog:   Running UnrealHeaderTool "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Sam Hirsch\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog: Reflection code generated for FirstPersonDemoEditor in 58.1282214 seconds
+[2021.05.27-04.27.33:972][ 80]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [1/6] FirstPersonDemo.init.gen.cpp
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [2/6] FPSCharacter.gen.cpp
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [3/6] FPSCharacter.cpp
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [4/6] UE4Editor-FirstPersonDemo-1924.lib
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-1924.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-1924.exp
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [5/6] UE4Editor-FirstPersonDemo-1924.dll
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-1924.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-1924.suppressed.exp
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog:   [6/6] FirstPersonDemoEditor.target
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog: Total time in Parallel executor: 13.28 seconds
+[2021.05.27-04.27.33:973][ 80]CompilerResultsLog: Total execution time: 74.75 seconds
+[2021.05.27-04.27.33:973][ 80]LogMainFrame: MainFrame: Module compiling took 75.885 seconds
+[2021.05.27-04.27.34:003][ 80]LogClass: Could not find existing class FPSCharacter in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-04.27.34:003][ 80]LogClass: Function EndCrouch is new.
+[2021.05.27-04.27.34:004][ 80]LogClass: Function EndJump is new.
+[2021.05.27-04.27.34:004][ 80]LogClass: Function MoveForwardBackward is new.
+[2021.05.27-04.27.34:004][ 80]LogClass: Function MoveRightLeft is new.
+[2021.05.27-04.27.34:004][ 80]LogClass: Function StartCrouch is new.
+[2021.05.27-04.27.34:004][ 80]LogClass: Function StartJump is new.
+[2021.05.27-04.27.34:011][ 80]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2021.05.27-04.27.34:204][ 80]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2021.05.27-04.27.34:206][ 80]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.27-04.27.34:280][ 80]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3409 classes and 807 folders.
+[2021.05.27-04.27.34:280][ 80]Display: HotReload took 76.2s.
+[2021.05.27-04.27.38:425][190]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.27-04.27.38:440][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.27-04.27.38:440][190]PIE: New page: PIE session: Minimal_Default (May 26, 2021, 6:27:38 PM)
+[2021.05.27-04.27.38:440][190]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-04.27.38:446][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005427s)
+[2021.05.27-04.27.38:448][190]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.27-04.27.38:448][190]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B080311000), frame # 74190
+[2021.05.27-04.27.38:448][190]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B09353AFC0), frame # 74190
+[2021.05.27-04.27.38:448][190]LogPlayLevel: PIE: World Init took: (0.002393s)
+[2021.05.27-04.27.38:448][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007976s)
+[2021.05.27-04.27.38:501][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.27-04.27.38:504][190]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.27-04.27.38:504][190]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.27-04.27.38:505][190]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.27-04.27.38:505][190]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.27-04.27.38:513][190]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-04.27.38:513][190]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-04.27.38:539][190]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.27-04.27.38:540][190]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.27-04.27.38:540][190]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.27-04.27.38:540][190]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.27-04.27.38:540][190]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.27-04.27.38:553][190]LogInit: FAudioDevice initialized.
+[2021.05.27-04.27.38:558][190]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.27-04.27.38:560][190]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.26-23.27.38
+[2021.05.27-04.27.38:560][190]LogWorld: Bringing up level for play took: 0.000577
+[2021.05.27-04.27.38:560][190]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.05.27-04.27.38:562][190]PIE: Server logged in
+[2021.05.27-04.27.38:563][190]PIE: Play in editor total start time 0.129 seconds.
+[2021.05.27-04.27.50:888][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-04.27.50:888][924]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-04.27.50:889][924]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-04.27.50:889][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-04.27.50:894][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.27-04.27.50:898][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-04.27.50:922][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-04.27.50:975][924]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B080311000), frame # 74924
+[2021.05.27-04.27.50:975][924]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B09353AFC0), frame # 74924
+[2021.05.27-04.27.50:977][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.05.27-04.27.51:004][925]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.05.27-05.20.30:736][404]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{496d376e-bbd4-44df-a6ea-964b352b5987}.
+[2021.05.27-05.20.30:736][404]LogTemp: Resetting audio stream to device id 
+[2021.05.27-05.20.30:781][404]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-05.20.30:781][404]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-05.20.31:066][405]LogTemp: Resetting audio stream to device id 
+[2021.05.27-05.20.31:110][405]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-05.20.31:110][405]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-05.20.34:873][415]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-13.56.55:476][415]LogTemp: Resetting audio stream to device id 
+[2021.05.27-13.56.56:923][415]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-13.56.56:923][415]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-13.57.02:016][416]LogTemp: Resetting audio stream to device id 
+[2021.05.27-13.57.02:059][416]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-13.57.02:059][416]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-14.45.23:199][127]Candidate modules for hot reload:
+[2021.05.27-14.45.23:199][127]  FirstPersonDemo
+[2021.05.27-14.45.23:203][127]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,5911 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.27-14.45.23:932][127]Warning: Starting HotReload took  0.8s.
+[2021.05.27-14.46.16:209][709]CompilerResultsLog: New page: Compilation - May 27, 2021, 4:46:16 AM
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Parsing headers for FirstPersonDemoEditor
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   Running UnrealHeaderTool "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Sam Hirsch\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Reflection code generated for FirstPersonDemoEditor in 36.0563809 seconds
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [1/6] FirstPersonDemo.init.gen.cpp
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [2/6] FPSCharacter.gen.cpp
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [3/6] FPSCharacter.cpp
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [4/6] UE4Editor-FirstPersonDemo-5911.lib
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-5911.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-5911.exp
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [5/6] UE4Editor-FirstPersonDemo-5911.dll
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-5911.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-5911.suppressed.exp
+[2021.05.27-14.46.16:218][709]CompilerResultsLog:   [6/6] FirstPersonDemoEditor.target
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Total time in Parallel executor: 12.58 seconds
+[2021.05.27-14.46.16:218][709]CompilerResultsLog: Total execution time: 51.75 seconds
+[2021.05.27-14.46.16:219][709]LogMainFrame: MainFrame: Module compiling took 53.065 seconds
+[2021.05.27-14.46.17:145][709]LogClass: Could not find existing class FPSCharacter in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-14.46.17:145][709]LogClass: Function EndCrouch is new.
+[2021.05.27-14.46.17:145][709]LogClass: Function EndJump is new.
+[2021.05.27-14.46.17:145][709]LogClass: Function MoveForwardBackward is new.
+[2021.05.27-14.46.17:145][709]LogClass: Function MoveRightLeft is new.
+[2021.05.27-14.46.17:145][709]LogClass: Function StartCrouch is new.
+[2021.05.27-14.46.17:145][709]LogClass: Function StartJump is new.
+[2021.05.27-14.46.17:636][709]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2021.05.27-14.46.18:087][709]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0116 seconds. Added 2 classes and 2 folders.
+[2021.05.27-14.46.18:092][709]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.27-14.46.18:272][709]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 3409 classes and 807 folders.
+[2021.05.27-14.46.18:272][709]Display: HotReload took 55.1s.
+[2021.05.27-14.46.27:503][789]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.27-14.46.27:524][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.27-14.46.27:524][789]PIE: New page: PIE session: Minimal_Default (May 27, 2021, 4:46:27 AM)
+[2021.05.27-14.46.27:525][789]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.46.27:539][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013939s)
+[2021.05.27-14.46.27:541][789]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.27-14.46.27:541][789]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B09DFDFE00), frame # 94789
+[2021.05.27-14.46.27:541][789]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B09E023D80), frame # 94789
+[2021.05.27-14.46.27:541][789]LogPlayLevel: PIE: World Init took: (0.002697s)
+[2021.05.27-14.46.27:542][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016995s)
+[2021.05.27-14.46.27:684][789]LogUObjectHash: Compacting FUObjectHashTables data took  11.04ms
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.27-14.46.27:721][789]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.27-14.46.27:721][789]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.27-14.46.27:722][789]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.27-14.46.27:722][789]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.27-14.46.27:792][789]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-14.46.27:792][789]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-14.46.27:817][789]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.27-14.46.27:817][789]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.27-14.46.27:818][789]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.27-14.46.27:818][789]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.27-14.46.27:820][789]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.27-14.46.27:842][789]LogInit: FAudioDevice initialized.
+[2021.05.27-14.46.27:866][789]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.27-14.46.27:868][789]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.27-09.46.27
+[2021.05.27-14.46.27:868][789]LogWorld: Bringing up level for play took: 0.000671
+[2021.05.27-14.46.27:868][789]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.05.27-14.46.27:873][789]PIE: Server logged in
+[2021.05.27-14.46.27:874][789]PIE: Play in editor total start time 0.354 seconds.
+[2021.05.27-14.46.40:791][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.46.40:791][539]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.46.40:791][539]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-14.46.40:791][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.46.40:802][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.27-14.46.40:806][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.46.40:843][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.46.40:951][539]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B09DFDFE00), frame # 95539
+[2021.05.27-14.46.40:951][539]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B09E023D80), frame # 95539
+[2021.05.27-14.46.40:953][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.05.27-14.46.40:975][540]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.05.27-14.46.55:294][338]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_DefaultGameMode.BP_DefaultGameMode
+[2021.05.27-14.57.08:263][981]Candidate modules for hot reload:
+[2021.05.27-14.57.08:263][981]  FirstPersonDemo
+[2021.05.27-14.57.08:263][981]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,920 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.27-14.57.08:270][981]Warning: Starting HotReload took  0.3s.
+[2021.05.27-14.57.13:524][276]CompilerResultsLog: New page: Compilation - May 27, 2021, 4:57:13 AM
+[2021.05.27-14.57.13:524][276]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.27-14.57.13:524][276]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.27-14.57.13:524][276]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.27-14.57.13:524][276]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.05.27-14.57.13:524][276]CompilerResultsLog:   [1/4] FPSCharacter.cpp
+[2021.05.27-14.57.13:525][276]CompilerResultsLog:   [2/4] UE4Editor-FirstPersonDemo-0920.lib
+[2021.05.27-14.57.13:525][276]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0920.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0920.exp
+[2021.05.27-14.57.13:526][276]CompilerResultsLog:   [3/4] UE4Editor-FirstPersonDemo-0920.dll
+[2021.05.27-14.57.13:526][276]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0920.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0920.suppressed.exp
+[2021.05.27-14.57.13:526][276]CompilerResultsLog:   [4/4] FirstPersonDemoEditor.target
+[2021.05.27-14.57.13:526][276]CompilerResultsLog: Total time in Parallel executor: 3.02 seconds
+[2021.05.27-14.57.13:526][276]CompilerResultsLog: Total execution time: 4.67 seconds
+[2021.05.27-14.57.13:526][276]LogMainFrame: MainFrame: Module compiling took 5.270 seconds
+[2021.05.27-14.57.13:554][276]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 3409 classes and 807 folders.
+[2021.05.27-14.57.13:554][276]Display: HotReload took  5.6s.
+[2021.05.27-14.57.15:886][394]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.27-14.57.15:906][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.27-14.57.15:906][394]PIE: New page: PIE session: Minimal_Default (May 27, 2021, 4:57:15 AM)
+[2021.05.27-14.57.15:906][394]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.57.15:912][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005692s)
+[2021.05.27-14.57.15:915][394]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.27-14.57.15:915][394]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B090DB3E00), frame # 99394
+[2021.05.27-14.57.15:915][394]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B090DD6D40), frame # 99394
+[2021.05.27-14.57.15:916][394]LogPlayLevel: PIE: World Init took: (0.003393s)
+[2021.05.27-14.57.15:916][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009291s)
+[2021.05.27-14.57.16:001][394]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.27-14.57.16:009][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.27-14.57.16:009][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.27-14.57.16:010][394]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.27-14.57.16:010][394]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.27-14.57.16:023][394]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-14.57.16:023][394]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-14.57.16:061][394]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.27-14.57.16:064][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.27-14.57.16:064][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.27-14.57.16:064][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.27-14.57.16:065][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.27-14.57.16:081][394]LogInit: FAudioDevice initialized.
+[2021.05.27-14.57.16:095][394]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.27-14.57.16:098][394]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.27-09.57.16
+[2021.05.27-14.57.16:098][394]LogWorld: Bringing up level for play took: 0.001078
+[2021.05.27-14.57.16:098][394]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.05.27-14.57.16:102][394]PIE: Server logged in
+[2021.05.27-14.57.16:103][394]PIE: Play in editor total start time 0.202 seconds.
+[2021.05.27-14.57.28:630][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.57.28:630][135]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.57.28:630][135]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-14.57.28:631][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.57.28:640][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.27-14.57.28:645][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.57.28:689][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.57.28:691][135]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B090DB3E00), frame # 100135
+[2021.05.27-14.57.28:691][135]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B090DD6D40), frame # 100135
+[2021.05.27-14.57.28:696][135]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.05.27-14.57.28:722][136]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.05.27-14.57.34:404][464]Cmd: DELETE
+[2021.05.27-14.57.34:417][464]Cmd: ACTOR DELETE
+[2021.05.27-14.57.34:959][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.05.27-14.57.34:977][464]LogEditorActor: Deleted 0 Actors (0.070 secs)
+[2021.05.27-14.57.41:352][820]Cmd: DELETE
+[2021.05.27-14.57.41:352][820]Cmd: ACTOR DELETE
+[2021.05.27-14.57.41:382][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.05.27-14.57.41:383][820]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2021.05.27-14.57.45:816][ 82]Cmd: DELETE
+[2021.05.27-14.57.45:816][ 82]Cmd: ACTOR DELETE
+[2021.05.27-14.57.46:040][ 82]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.27-14.57.46:046][ 82]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.27-14.57.46:075][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.05.27-14.57.46:078][ 82]LogEditorActor: Deleted 2 Actors (0.262 secs)
+[2021.05.27-14.57.49:778][295]Cmd: DELETE
+[2021.05.27-14.57.49:778][295]Cmd: ACTOR DELETE
+[2021.05.27-14.57.49:779][295]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.27-14.57.49:780][295]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.05.27-14.57.49:810][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.05.27-14.57.49:811][295]LogEditorActor: Deleted 2 Actors (0.033 secs)
+[2021.05.27-14.57.54:319][562]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.05.27-14.57.56:830][703]Cmd: DELETE
+[2021.05.27-14.57.56:830][703]Cmd: ACTOR DELETE
+[2021.05.27-14.57.56:831][703]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2021.05.27-14.57.56:863][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.05.27-14.57.56:864][703]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2021.05.27-14.57.58:020][773]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2021.05.27-14.57.59:602][866]Cmd: DELETE
+[2021.05.27-14.57.59:602][866]Cmd: ACTOR DELETE
+[2021.05.27-14.57.59:603][866]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2021.05.27-14.57.59:629][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.05.27-14.57.59:630][866]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2021.05.27-14.58.04:438][154]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.27-14.58.04:446][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.27-14.58.04:446][154]PIE: New page: PIE session: Minimal_Default (May 27, 2021, 4:58:04 AM)
+[2021.05.27-14.58.04:446][154]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.58.04:449][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2021.05.27-14.58.04:449][154]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.27-14.58.04:450][154]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B09CEC2200), frame # 102154
+[2021.05.27-14.58.04:450][154]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B01D4C5080), frame # 102154
+[2021.05.27-14.58.04:450][154]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2021.05.27-14.58.04:450][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004160s)
+[2021.05.27-14.58.04:480][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.27-14.58.04:483][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.27-14.58.04:483][154]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.27-14.58.04:483][154]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.27-14.58.04:492][154]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-14.58.04:492][154]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-14.58.04:521][154]LogAudioMixer: Display: Using Audio Device Headset Earphone (Arctis 5 Chat)
+[2021.05.27-14.58.04:521][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.27-14.58.04:521][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.27-14.58.04:521][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.27-14.58.04:521][154]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.27-14.58.04:533][154]LogInit: FAudioDevice initialized.
+[2021.05.27-14.58.04:545][154]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2021.05.27-14.58.04:546][154]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2021.05.27-09.58.04
+[2021.05.27-14.58.04:546][154]LogWorld: Bringing up level for play took: 0.000447
+[2021.05.27-14.58.04:546][154]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.05.27-14.58.04:550][154]PIE: Server logged in
+[2021.05.27-14.58.04:551][154]PIE: Play in editor total start time 0.106 seconds.
+[2021.05.27-14.58.08:950][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.58.08:950][415]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.27-14.58.08:950][415]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.27-14.58.08:950][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.58.08:957][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.27-14.58.08:962][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.27-14.58.09:002][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.27-14.58.09:003][415]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B09CEC2200), frame # 102415
+[2021.05.27-14.58.09:003][415]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B01D4C5080), frame # 102415
+[2021.05.27-14.58.09:006][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.05.27-14.58.09:029][416]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.05.27-14.58.14:701][709]Cmd: DELETE
+[2021.05.27-14.58.14:701][709]Cmd: ACTOR DELETE
+[2021.05.27-14.58.14:703][709]LogEditorActor: Deleted Actor: AmbientSound
+[2021.05.27-14.58.14:737][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.05.27-14.58.14:738][709]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.05.27-14.58.20:308][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.05.27-14.58.20:512][ 21]LogSavePackage: Moving 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Minimal_Default30E108ED43B6E5E4E98CE28B97AC6DBC.tmp' to 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.05.27-14.58.20:703][ 21]LogSavePackage: Moving 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/Minimal_Default_BuiltDataE88209E74DAA0699A50B35AB42C2BDAE.tmp' to 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.05.27-14.58.20:767][ 21]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.27-14.58.20:767][ 21]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.05.27-14.58.20:767][ 21]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.05.27-15.56.33:213][118]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.27-15.56.33:220][118]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.27-15.57.14:188][655]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.05.27-15.57.14:188][655]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.05.27-15.57.29:296][529]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.05.27-15.57.38:034][ 31]Running E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" -game -rocket -progress
+[2021.05.27-15.57.38:641][ 31]Discovering modules, targets and source code for project...
+[2021.05.27-15.57.43:679][ 31]Binding IntelliSense data...
+[2021.05.27-15.58.03:431][ 31]Binding IntelliSense data... 50%
+[2021.05.27-15.58.03:431][ 31]Binding IntelliSense data... 100%
+[2021.05.27-15.58.03:531][ 31]Writing project files...
+[2021.05.27-15.58.24:459][ 31]Writing project files... 33%
+[2021.05.27-15.58.24:460][ 31]Writing project files... 100%
+[2021.05.27-15.58.24:598][ 31]Candidate modules for hot reload:
+[2021.05.27-15.58.24:598][ 31]  FirstPersonDemo
+[2021.05.27-15.58.24:599][ 31]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,880 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: New page: Compilation - May 27, 2021, 5:58:37 AM
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Creating makefile for FirstPersonDemoEditor (no existing makefile)
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Parsing headers for FirstPersonDemoEditor
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   Running UnrealHeaderTool "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Sam Hirsch\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Reflection code generated for FirstPersonDemoEditor in 6.6950467 seconds
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [1/6] Projectile.cpp
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [2/6] FirstPersonDemo.init.gen.cpp
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [3/6] Projectile.gen.cpp
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [4/6] UE4Editor-FirstPersonDemo-0880.lib
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0880.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0880.exp
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [5/6] UE4Editor-FirstPersonDemo-0880.dll
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0880.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0880.suppressed.exp
+[2021.05.27-15.58.37:226][ 31]CompilerResultsLog:   [6/6] FirstPersonDemoEditor.target
+[2021.05.27-15.58.37:227][ 31]CompilerResultsLog: Total time in Parallel executor: 2.07 seconds
+[2021.05.27-15.58.37:227][ 31]CompilerResultsLog: Total execution time: 12.34 seconds
+[2021.05.27-15.58.37:227][ 31]LogMainFrame: MainFrame: Module compiling took 12.633 seconds
+[2021.05.27-15.58.37:318][ 31]LogContentBrowser: Native class hierarchy populated in 0.0523 seconds. Added 3409 classes and 807 folders.
+[2021.05.27-15.58.37:319][ 31]Display: HotReload took 12.7s.
+[2021.05.27-15.58.37:319][ 31]Warning: HotReload operation took 12.7s.
+[2021.05.27-15.58.39:640][ 31]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Source/FirstPersonDemo/Projectile.h'
+[2021.05.27-15.58.39:843][ 31]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.05.27-15.58.40:416][ 31]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0880.dll
+[2021.05.27-15.58.40:506][ 32]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.27-15.58.40:713][ 32]LogClass: Could not find existing class Projectile in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-15.58.40:721][ 32]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0010 seconds. Added 3 classes and 2 folders.
+[2021.05.27-15.58.40:727][ 32]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2021.05.27-15.58.40:901][ 32]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3410 classes and 807 folders.
+[2021.05.27-15.58.40:904][ 32]Display: HotReload took  0.4s.
+[2021.05.27-16.24.54:543][723]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0011.dll
+[2021.05.27-16.24.55:577][727]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.27-16.24.55:660][727]LogClass: Could not find existing class Projectile in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-16.24.55:671][727]LogHotReload: Re-instancing Projectile after hot-reload.
+[2021.05.27-16.24.55:753][727]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2021.05.27-16.24.55:760][727]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2021.05.27-16.24.55:923][727]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3410 classes and 807 folders.
+[2021.05.27-16.24.55:926][727]Display: HotReload took  0.3s.
+[2021.05.27-17.03.13:228][577]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{496d376e-bbd4-44df-a6ea-964b352b5987}.
+[2021.05.27-17.03.13:815][577]LogTemp: Resetting audio stream to device id 
+[2021.05.27-17.03.13:919][577]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-17.03.13:920][577]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-17.03.18:510][590]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.05.27-18.46.17:297][590]LogTemp: Resetting audio stream to device id 
+[2021.05.27-18.46.20:776][590]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-18.46.20:776][590]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-18.46.22:207][591]LogTemp: Resetting audio stream to device id 
+[2021.05.27-18.46.22:361][591]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-18.46.22:361][591]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-18.47.03:383][704]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{496d376e-bbd4-44df-a6ea-964b352b5987}.
+[2021.05.27-18.47.07:683][704]LogTemp: Resetting audio stream to device id 
+[2021.05.27-18.47.07:715][704]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.27-18.47.07:715][704]LogAudioMixer: Display: 1: FrontRight
+[2021.05.27-18.47.16:874][730]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2021.05.27-18.47.17:376][731]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2021.05.27-18.47.20:456][733]LogRendererCore: Warning: Query 'SlateUI' not ready.
+[2021.05.27-19.24.31:240][379]LogHotReload: New module detected: UE4Editor-FirstPersonDemo-0015.dll
+[2021.05.27-19.24.32:199][383]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.27-19.24.32:720][383]LogClass: Could not find existing class FPSCharacter in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-19.24.32:720][383]LogClass: Function EndCrouch is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function EndJump is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function MoveForwardBackward is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function MoveRightLeft is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function PrimaryFire is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function StartCrouch is new.
+[2021.05.27-19.24.32:721][383]LogClass: Function StartJump is new.
+[2021.05.27-19.24.32:721][383]LogClass: Could not find existing class Projectile in package /Script/FirstPersonDemo for HotReload, assuming new class
+[2021.05.27-19.24.32:774][383]LogHotReload: Re-instancing FPSCharacter after hot-reload.
+[2021.05.27-19.24.33:220][383]LogHotReload: Re-instancing Projectile after hot-reload.
+[2021.05.27-19.24.33:264][383]LogContentBrowser: Native class hierarchy updated for 'FirstPersonDemo' in 0.0019 seconds. Added 3 classes and 2 folders.
+[2021.05.27-19.24.33:272][383]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.27-19.24.33:531][383]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 3410 classes and 807 folders.
+[2021.05.27-19.24.33:557][383]Display: HotReload took  1.4s.
+[2021.05.27-19.26.51:456][518]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.27-19.26.58:364][912]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.27-20.00.33:660][807]Candidate modules for hot reload:
+[2021.05.27-20.00.33:660][807]  FirstPersonDemo
+[2021.05.27-20.00.33:660][807]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FirstPersonDemo,9793 FirstPersonDemoEditor Win64 Development -Project="D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject" "D:/Epic Games/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/FirstPersonDemo.uproject"  -IgnoreJunk]
+[2021.05.27-20.00.33:664][807]Warning: Starting HotReload took  0.0s.
+[2021.05.27-20.01.17:832][432]CompilerResultsLog: New page: Compilation - May 27, 2021, 10:01:17 AM
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\UnrealProjects\UE4_FPS_Demo).
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Parsing headers for FirstPersonDemoEditor
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   Running UnrealHeaderTool "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Sam Hirsch\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Reflection code generated for FirstPersonDemoEditor in 27.8065336 seconds
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Building FirstPersonDemoEditor...
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.27-20.01.17:834][432]CompilerResultsLog: Building 8 actions with 12 processes...
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [1/8] Projectile.cpp
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [2/8] FirstPersonDemo.init.gen.cpp
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [3/8] Projectile.gen.cpp
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [4/8] FPSCharacter.gen.cpp
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [5/8] FPSCharacter.cpp
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:   [6/8] UE4Editor-FirstPersonDemo-9793.lib
+[2021.05.27-20.01.17:834][432]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-9793.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-9793.exp
+[2021.05.27-20.01.17:836][432]CompilerResultsLog:   [7/8] UE4Editor-FirstPersonDemo-9793.dll
+[2021.05.27-20.01.17:836][432]CompilerResultsLog:      Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-9793.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-9793.suppressed.exp
+[2021.05.27-20.01.17:836][432]CompilerResultsLog:   [8/8] FirstPersonDemoEditor.target
+[2021.05.27-20.01.17:836][432]CompilerResultsLog: Total time in Parallel executor: 13.08 seconds
+[2021.05.27-20.01.17:837][432]CompilerResultsLog: Total execution time: 43.40 seconds
+[2021.05.27-20.01.17:837][432]LogMainFrame: MainFrame: Module compiling took 44.181 seconds
+[2021.05.27-20.01.17:899][432]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.05.27-20.01.17:900][432]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.05.27-20.01.53:494][432]LogWindows: Error: === Critical error: ===
+[2021.05.27-20.01.53:494][432]LogWindows: Error: 
+[2021.05.27-20.01.53:494][432]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2335] 
+[2021.05.27-20.01.53:494][432]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2021.05.27-20.01.53:494][432]LogWindows: Error: 	New Object: FPSCharacter /Engine/Transient.Default__FPSCharacter
+[2021.05.27-20.01.53:494][432]LogWindows: Error: 	Existing Object: HOTRELOADED_FPSCharacter_5 /Engine/Transient.Default__FPSCharacter
+[2021.05.27-20.01.53:494][432]LogWindows: Error: 
+[2021.05.27-20.01.53:494][432]LogWindows: Error: 
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff9cd314b89 KERNELBASE.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff93482ec66 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff934832048 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff9345be52d UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff95f65dfca UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff9a8bd4f4c UE4Editor-FirstPersonDemo-9793.dll!AFPSCharacter::__VTableCtorCaller() [D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.h:15]
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff95f3cf34b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:494][432]LogWindows: Error: [Callstack] 0x00007ff95f3cc13d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9a8bd595b UE4Editor-FirstPersonDemo-9793.dll!AFPSCharacter::GetPrivateStaticClass() [D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Inc\FirstPersonDemo\FPSCharacter.gen.cpp:369]
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9a8bd57df UE4Editor-FirstPersonDemo-9793.dll!TClassCompiledInDefer<AFPSCharacter>::Register() [E:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:288]
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff95f6664a3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff95f645b6e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff95f564465 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9345f986a UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9346199f0 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff934618b08 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff8ee42b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff8ee429617 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff8ee42a1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff8ee43c057 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff93437d0a9 UE4Editor-Core.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff786b4a213 UE4Editor.exe!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff786b5ba7c UE4Editor.exe!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff786b5bb5a UE4Editor.exe!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff786b6e31d UE4Editor.exe!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff786b7145a UE4Editor.exe!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9cd8b7034 KERNEL32.DLL!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: [Callstack] 0x00007ff9cf882651 ntdll.dll!UnknownFunction []
+[2021.05.27-20.01.53:495][432]LogWindows: Error: 
+[2021.05.27-20.01.53:544][432]LogExit: Executing StaticShutdownAfterError
+[2021.05.27-20.01.54:000][432]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.05.27-20.01.54:000][432]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.05.27-20.01.54:026][432]Log file closed, 05/27/21 15:01:54

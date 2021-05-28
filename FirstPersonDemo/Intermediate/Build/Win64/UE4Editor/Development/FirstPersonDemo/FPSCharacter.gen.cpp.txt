@@ -6,4 +6,19 @@ E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\Projectile.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+E:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Inc\FirstPersonDemo\Projectile.generated.h
+E:\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Inc\FirstPersonDemo\FPSCharacter.generated.h

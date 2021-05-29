@@ -25,6 +25,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
 	FVector MuzzleOffset;
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float Friction;
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float Acceleration;
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MaxVelocity;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -32,6 +39,14 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
 	TSubclassOf<class AProjectile> ProjectileClass;
 
+
+	/// <summary>
+	/// Calculates the acceleration for straffing
+	/// </summary>
+	/// <param name="AccelDir"> normalized direction that the player is moving to</param>
+	/// <param name="prevVelocity"> current velocity of the player </param>
+	/// <param name="accelerate"> the server-defined player acceleration value </param>
+	/// <param name="maxVelocity"> the server-defined player max velocity </param>
 	FVector Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity);
 
 public:	

@@ -5,6 +5,9 @@
 
 #include "DrawDebugHelpers.h"
 #include "Misc/App.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Pawn.h"
+#include "Math/UnrealMathUtility.h"
 #include "FPSCharacter.h"
 
 // Sets default values
@@ -24,6 +27,11 @@ AFPSCharacter::AFPSCharacter()
 	Camera->SetRelativeLocation(FVector(0, 0, 50 + BaseEyeHeight));
 
 	Camera->bUsePawnControlRotation = true; // Allows the camera rotation control
+
+	// Default Movement Variables
+	Acceleration = 10.0f;
+	Friction = 2.0f;
+	MaxVelocity = 100.0f;
 }
 
 // Called when the game starts or when spawned
@@ -38,6 +46,9 @@ void AFPSCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+#if WITH_EDITOR
+	UE_LOG(LogTemp, Warning, TEXT("%f"), this->GetVelocity().Size());
+#endif // WITH_EDITOR
 
 }
 
@@ -71,6 +82,23 @@ void AFPSCharacter::MoveForwardBackward(float Value)
 void AFPSCharacter::MoveRightLeft(float Value)
 {
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
+	FVector Velocity = GetVelocity();
+
+	if (AFPSCharacter::GetCharacterMovement()->IsMovingOnGround())
+	{
+		float speed = GetVelocity().Size();
+		if (speed != 0) // avoids n/0
+		{
+			float drop = speed * Friction * GetWorld()->GetDeltaSeconds(); // * Time.fixedDeltaTime
+			Velocity *= FMath::Max(speed - drop, 0.0f) / speed;
+		}
+
+		Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be groundAcceleration and maxGroundVelocity?
+	}
+	else // MovesAir Function
+	{
+		Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be airAcceleration and maxAirVelocity?
+	}
 
 	AddMovementInput(Direction, Value);
 }
@@ -99,13 +127,13 @@ void AFPSCharacter::EndJump()
 	bPressedJump = false;
 }
 
-void AFPSCharacter::StartCrouch()
+void AFPSCharacter::StartCrouch() // TODO doesnt work
 {
-	bIsCrouched = true;
+	bIsCrouched = true; 
 	Crouch();
 }
 
-void AFPSCharacter::EndCrouch()
+void AFPSCharacter::EndCrouch() // TODO doesnt work
 {
 	bIsCrouched = false;
 }

@@ -28,10 +28,14 @@ AFPSCharacter::AFPSCharacter()
 
 	Camera->bUsePawnControlRotation = true; // Allows the camera rotation control
 
+	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Player Mesh"));
+
 	// Default Movement Variables
 	Acceleration = 10.0f;
 	Friction = 2.0f;
-	MaxVelocity = 100.0f;
+	MaxVelocity = 50.0f;
+
+	JumpMaxCount = 2;
 }
 
 // Called when the game starts or when spawned
@@ -47,7 +51,7 @@ void AFPSCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 #if WITH_EDITOR
-	UE_LOG(LogTemp, Warning, TEXT("%f"), this->GetVelocity().Size());
+	//GEngine->AddOnScreenDebugMessage(-1, 0.1f, FColor::Yellow, FString::Printf(TEXT("%s"), this->GetVelocity().Size())); // Crashes editor
 #endif // WITH_EDITOR
 
 }
@@ -74,7 +78,24 @@ void AFPSCharacter::MoveForwardBackward(float Value)
 {
 	// Find the forward vector
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
-	
+	FVector Velocity = GetVelocity();
+
+	//if (AFPSCharacter::GetCharacterMovement()->IsMovingOnGround())
+	//{
+	//	float speed = GetVelocity().Size();
+	//	if (speed != 0) // avoids n/0
+	//	{
+	//		float drop = speed * Friction * GetWorld()->GetDeltaSeconds(); // * Time.fixedDeltaTime
+	//		Velocity *= FMath::Max(speed - drop, 0.0f) / speed;
+	//	}
+
+	//	Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be groundAcceleration and maxGroundVelocity?
+	//}
+	//else // MovesAir Function
+	//{
+	//	Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be airAcceleration and maxAirVelocity?
+	//}
+
 	// Move the player along that vector
 	AddMovementInput(Direction, Value);
 }
@@ -84,28 +105,28 @@ void AFPSCharacter::MoveRightLeft(float Value)
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
 	FVector Velocity = GetVelocity();
 
-	if (AFPSCharacter::GetCharacterMovement()->IsMovingOnGround())
-	{
-		float speed = GetVelocity().Size();
-		if (speed != 0) // avoids n/0
-		{
-			float drop = speed * Friction * GetWorld()->GetDeltaSeconds(); // * Time.fixedDeltaTime
-			Velocity *= FMath::Max(speed - drop, 0.0f) / speed;
-		}
+	//if (AFPSCharacter::GetCharacterMovement()->IsMovingOnGround())
+	//{
+	//	float speed = GetVelocity().Size();
+	//	if (speed != 0) // avoids n/0
+	//	{
+	//		float drop = speed * Friction * GetWorld()->GetDeltaSeconds(); // * Time.fixedDeltaTime
+	//		Velocity *= FMath::Max(speed - drop, 0.0f) / speed;
+	//	}
 
-		Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be groundAcceleration and maxGroundVelocity?
-	}
-	else // MovesAir Function
-	{
-		Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be airAcceleration and maxAirVelocity?
-	}
+	//	Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be groundAcceleration and maxGroundVelocity?
+	//}
+	//else // MovesAir Function
+	//{
+	//	Direction = Accelerate(Direction, Velocity, Acceleration, MaxVelocity); // might have to be airAcceleration and maxAirVelocity?
+	//}
 
 	AddMovementInput(Direction, Value);
 }
 
 FVector AFPSCharacter::Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity)
 {
-	// Vector projection from Current Velocity to Acceleration Direction
+	// Vector projection from Current Velocity onto Acceleration Direction
 	float projVelocity = Dot3(prevVelocity, AccelDir);
 	// Accelerated Velocity in direction of movement
 	float accelVelocity = accelerate * GetWorld()->GetTimeSeconds(); // TODO time.deltatimefixed?
@@ -119,7 +140,7 @@ FVector AFPSCharacter::Accelerate(FVector AccelDir, FVector prevVelocity, float 
 
 void AFPSCharacter::StartJump()
 {
-	bPressedJump = true;
+	Jump();
 }
 
 void AFPSCharacter::EndJump()
@@ -129,6 +150,7 @@ void AFPSCharacter::EndJump()
 
 void AFPSCharacter::StartCrouch() // TODO doesnt work
 {
+	
 	bIsCrouched = true; 
 	Crouch();
 }
@@ -140,8 +162,6 @@ void AFPSCharacter::EndCrouch() // TODO doesnt work
 
 void AFPSCharacter::PrimaryFire()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hello"));
-
 	FHitResult outHit;
 	FVector Direction = Camera->GetForwardVector();
 	FVector Start = Camera->GetComponentLocation();
@@ -150,6 +170,13 @@ void AFPSCharacter::PrimaryFire()
 	FCollisionQueryParams CollisionParams;
 	CollisionParams.AddIgnoredActor(this->GetOwner());
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+
+	bool isHit = GetWorld()->LineTraceSingleByChannel(outHit, Start, End, ECC_Visibility, CollisionParams);
+	if (AFPSCharacter* otherPlayer = Cast<AFPSCharacter>(outHit.GetActor()))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("You have hit %s"), *outHit.GetActor()->GetName());
+		otherPlayer->Death();
+	}
 
 	/* Dont think i need. Doesnt work anyways*/
 	//if (ProjectileClass) // Fire a projectile if possible
@@ -185,4 +212,9 @@ void AFPSCharacter::PrimaryFire()
 	//		}
 	//	}
 	//}
+}
+
+void AFPSCharacter::Death()
+{
+
 }

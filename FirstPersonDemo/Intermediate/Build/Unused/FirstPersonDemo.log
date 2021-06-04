@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.28.29915 toolchain (D:\VisualStudio2019\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
     [1/4] FPSCharacter.cpp
-D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.cpp(50): error C2065: 'Lthis': undeclared identifier
-D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.cpp(50): error C2955: 'TIsArrayOrRefOfType': use of class template requires template argument list
-    E:\UE_4.25\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h(13): note: see declaration of 'TIsArrayOrRefOfType'
-D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.cpp(50): error C2672: 'operator __surrogate_func': no matching overloaded function found
-D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.cpp(50): error C2780: 'auto AFPSCharacter::Tick::<lambda_86b1e53c9cfbc06c1724fa5bbb09de54>::operator ()(const _T1 &,const _T2 &,const _T3 &...) const': expects 3 arguments - 1 provided
-    D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Source\FirstPersonDemo\FPSCharacter.cpp(50): note: see declaration of 'AFPSCharacter::Tick::<lambda_86b1e53c9cfbc06c1724fa5bbb09de54>::operator ()'
-D:\VisualStudio2019\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(47,5): error MSB3073: The command "E:\UE_4.25\Engine\Build\BatchFiles\Build.bat FirstPersonDemoEditor Win64 Development -Project="D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+    [2/4] UE4Editor-FirstPersonDemo-0029.lib
+       Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0029.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0029.exp
+    [3/4] UE4Editor-FirstPersonDemo-0029.dll
+       Creating library D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0029.suppressed.lib and object D:\Epic Games\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo-0029.suppressed.exp
+    [4/4] FirstPersonDemoEditor.target
+  Total time in Parallel executor: 3.20 seconds
+  Total execution time: 3.96 seconds

@@ -216,5 +216,10 @@ void AFPSCharacter::PrimaryFire()
 
 void AFPSCharacter::Death()
 {
+	DisableInput(Cast<APlayerController>(this));
+}
 
+void AFPSCharacter::Respawn()
+{
+	EnableInput(Cast<APlayerController>(this));
 }

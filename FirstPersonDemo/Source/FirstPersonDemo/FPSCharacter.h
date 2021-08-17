@@ -23,10 +23,10 @@ public:
 	UCameraComponent* Camera;
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* StaticMesh; // Temporary since I don't have a skeletal mesh for the character
-	UPROPERTY(VisibleAnywhere)
-	UMaterial DefaultMaterial;
-	UPROPERTY(VisibleAnywhere)
-	UMaterial DeadMaterial;
+	//UPROPERTY(VisibleAnywhere)
+//	UMaterial DefaultMaterial;
+	//UPROPERTY(VisibleAnywhere)
+	//UMaterial DeadMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
 	FVector MuzzleOffset;

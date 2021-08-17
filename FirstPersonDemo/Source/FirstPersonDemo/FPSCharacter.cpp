@@ -3,12 +3,13 @@
 	Accelerate code derived from http://adrianb.io/2015/02/14/bunnyhop.html
 */
 
+#include "FPSCharacter.h"
 #include "DrawDebugHelpers.h"
 #include "Misc/App.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Pawn.h"
 #include "Math/UnrealMathUtility.h"
-#include "FPSCharacter.h"
+
 
 // Sets default values
 AFPSCharacter::AFPSCharacter()
@@ -122,6 +123,30 @@ void AFPSCharacter::MoveRightLeft(float Value)
 	//}
 
 	AddMovementInput(Direction, Value);
+}
+
+// accelDir: normalized direction that the player has requested to move (taking into account the movement keys and look direction)
+// prevVelocity: The current velocity of the player, before any additional calculations
+// accelerate: The server-defined player acceleration value
+// max_velocity: The server-defined maximum player velocity (this is not strictly adhered to due to strafejumping)
+FVector MoveGround(FVector accelDir, FVector prevVelocity, float DeltaTime)
+{
+	// Apply Friction
+	float speed = prevVelocity.Size();
+	if (speed != 0) // To avoid divide by zero errors
+	{
+		float drop = speed * friction * DeltaTime;
+		prevVelocity *= std::max(speed - drop, 0.0f) / speed; // Scale the velocity based on friction.
+	}
+
+	// ground_accelerate and max_velocity_ground are server-defined movement variables
+	return Accelerate(accelDir, prevVelocity, ground_accelerate, max_velocity_ground);
+}
+
+FVector MoveAir(FVector accelDir, FVector prevVelocity)
+{
+	// air_accelerate and max_velocity_air are server-defined movement variables
+	return Accelerate(accelDir, prevVelocity, air_accelerate, max_velocity_air);
 }
 
 FVector AFPSCharacter::Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity)

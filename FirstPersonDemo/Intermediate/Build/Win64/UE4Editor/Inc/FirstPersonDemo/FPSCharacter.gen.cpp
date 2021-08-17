@@ -360,9 +360,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData[] = {
 		{ "Category", "Projectile" },
-		{ "Comment", "// Temporary since I don't have a skeletal mesh for the character\n" },
+		{ "Comment", "// Temporary since I don't have a skeletal mesh for the character\n//UPROPERTY(VisibleAnywhere)\n//\x09UMaterial DefaultMaterial;\n//UPROPERTY(VisibleAnywhere)\n//UMaterial DeadMaterial;\n" },
 		{ "ModuleRelativePath", "FPSCharacter.h" },
-		{ "ToolTip", "Temporary since I don't have a skeletal mesh for the character" },
+		{ "ToolTip", "Temporary since I don't have a skeletal mesh for the character\nUPROPERTY(VisibleAnywhere)\n      UMaterial DefaultMaterial;\nUPROPERTY(VisibleAnywhere)\nUMaterial DeadMaterial;" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset = { "MuzzleOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, MuzzleOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData)) };
@@ -418,7 +418,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSCharacter, 447266753);
+	IMPLEMENT_CLASS(AFPSCharacter, 3239024965);
 	template<> FIRSTPERSONDEMO_API UClass* StaticClass<AFPSCharacter>()
 	{
 		return AFPSCharacter::StaticClass();

@@ -17,6 +17,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPrimaryFire); \
+	DECLARE_FUNCTION(execStopSprint); \
+	DECLARE_FUNCTION(execStartSprint); \
 	DECLARE_FUNCTION(execEndCrouch); \
 	DECLARE_FUNCTION(execStartCrouch); \
 	DECLARE_FUNCTION(execEndJump); \
@@ -28,6 +30,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPrimaryFire); \
+	DECLARE_FUNCTION(execStopSprint); \
+	DECLARE_FUNCTION(execStartSprint); \
 	DECLARE_FUNCTION(execEndCrouch); \
 	DECLARE_FUNCTION(execStartCrouch); \
 	DECLARE_FUNCTION(execEndJump); \
@@ -59,7 +63,7 @@ public: \
 	NO_API AFPSCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFPSCharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFPSCharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFPSCharacter(AFPSCharacter&&); \
@@ -74,7 +78,7 @@ private: \
 	NO_API AFPSCharacter(const AFPSCharacter&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFPSCharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSCharacter)
 
 

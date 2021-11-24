@@ -39,7 +39,7 @@ public: \
 	NO_API AProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AProjectile) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AProjectile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AProjectile(AProjectile&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AProjectile(const AProjectile&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AProjectile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProjectile)
 
 

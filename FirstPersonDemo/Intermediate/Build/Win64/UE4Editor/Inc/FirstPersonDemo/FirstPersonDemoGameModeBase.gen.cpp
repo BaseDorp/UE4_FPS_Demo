@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonDemoGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonDemoGameModeBase, 256095896);
+	IMPLEMENT_CLASS(AFirstPersonDemoGameModeBase, 2622946313);
 	template<> FIRSTPERSONDEMO_API UClass* StaticClass<AFirstPersonDemoGameModeBase>()
 	{
 		return AFirstPersonDemoGameModeBase::StaticClass();

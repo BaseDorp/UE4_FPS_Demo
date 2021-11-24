@@ -31,12 +31,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
 	FVector MuzzleOffset;
 
-	UPROPERTY(EditAnywhere, Category = "Movement")
+	UPROPERTY(EditAnywhere, Category="Movement")
+	float MovementSpeed;
+
+	/*UPROPERTY(EditAnywhere, Category = "Movement")
 	float Friction;
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float Acceleration;
 	UPROPERTY(EditAnywhere, Category = "Movement")
-	float MaxVelocity;
+	float MaxVelocity;*/
 
 protected:
 	// Called when the game starts or when spawned
@@ -81,6 +84,12 @@ public:
 
 	UFUNCTION()
 	void EndCrouch();
+
+	UFUNCTION()
+	void StartSprint();
+
+	UFUNCTION()
+	void StopSprint();
 
 	UFUNCTION()
 	void PrimaryFire();

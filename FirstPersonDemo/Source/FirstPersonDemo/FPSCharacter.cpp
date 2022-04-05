@@ -37,7 +37,8 @@ AFPSCharacter::AFPSCharacter()
 	MaxVelocity = 50.0f;*/
 
 	JumpMaxCount = 2;
-	
+	SprintMultiplier = 1.5f;
+	bSprinting = false;
 }
 
 // Called when the game starts or when spawned
@@ -52,10 +53,12 @@ void AFPSCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// TODO check for player velocity to be zero, if sprinting, then stop sprinting
+
+
 #if WITH_EDITOR
 	//GEngine->AddOnScreenDebugMessage(-1, 0.1f, FColor::Yellow, FString::Printf(TEXT("%s"), this->GetVelocity().Size())); // Crashes editor
 #endif // WITH_EDITOR
-
 }
 
 // Called to bind functionality to input
@@ -193,33 +196,43 @@ void AFPSCharacter::EndCrouch()
 
 void AFPSCharacter::StartSprint()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Sprinting"));
-	GetCharacterMovement()->MaxWalkSpeed *= 1.5f;
+	/*if (bSprinting || CharacterMovement->Velocity <= 1)
+	{
+		GetCharacterMovement()->MaxWalkSpeed /= SprintMultiplier;
+		bSprinting = false;
+	}
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed *= SprintMultiplier;
+		bSprinting = true;
+	}*/
+
+	GetCharacterMovement()->MaxWalkSpeed *= SprintMultiplier;
+	bSprinting = true;
 }
 
 void AFPSCharacter::StopSprint()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Stopped Sprinting"));
-	GetCharacterMovement()->MaxWalkSpeed /= 1.5f;
+	//GetCharacterMovement()->MaxWalkSpeed /= SprintMultiplier;
 }
 
 void AFPSCharacter::PrimaryFire()
 {
-	//FHitResult outHit;
-	//FVector Direction = Camera->GetForwardVector();
-	//FVector Start = Camera->GetComponentLocation();
-	//FVector End = Start + (Direction * 5000.0f); // TODO promote to variable
+	FHitResult outHit;
+	FVector Direction = Camera->GetForwardVector();
+	FVector Start = Camera->GetComponentLocation();
+	FVector End = Start + (Direction * 5000.0f); // TODO promote to variable
 
-	//FCollisionQueryParams CollisionParams;
-	//CollisionParams.AddIgnoredActor(this->GetOwner());
-	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	FCollisionQueryParams CollisionParams;
+	CollisionParams.AddIgnoredActor(this->GetOwner());
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
-	//bool isHit = GetWorld()->LineTraceSingleByChannel(outHit, Start, End, ECC_Visibility, CollisionParams);
-	//if (AFPSCharacter* otherPlayer = Cast<AFPSCharacter>(outHit.GetActor()))
-	//{
-	//	UE_LOG(LogTemp, Warning, TEXT("You have hit %s"), *outHit.GetActor()->GetName());
-	//	otherPlayer->Death();
-	//}
+	/*bool isHit = GetWorld()->LineTraceSingleByChannel(outHit, Start, End, ECC_Visibility, CollisionParams);
+	if (AFPSCharacter* otherPlayer = Cast<AFPSCharacter>(outHit.GetActor()))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("You have hit %s"), *outHit.GetActor()->GetName());
+		otherPlayer->Death();
+	}*/
 }
 
 void AFPSCharacter::Death()

@@ -33,6 +33,10 @@ public:
 
 	UPROPERTY(EditAnywhere, Category="Movement")
 	float MovementSpeed;
+	UPROPERTY(EditAnywhere, Category="Movement")
+	float SprintMultiplier;
+	UPROPERTY(VisibleAnywhere, Category="Movement")
+	bool bSprinting;
 
 	/*UPROPERTY(EditAnywhere, Category = "Movement")
 	float Friction;

@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpersondemo\\firstpersondemo.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\firstpersondemoeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\unrealeditor\\development\\firstpersondemo\\definitions.firstpersondemo.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

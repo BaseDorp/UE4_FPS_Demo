@@ -1,0 +1,5 @@
+2022/04/06-21:32:48.834 6194 Reusing MANIFEST C:/Users/super/Documents/UnrealProjects/UE4_FPS_Demo/FirstPersonDemo/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/06-22:21:43.949 2e2c Level-0 table #5: started
+2022/04/06-22:21:43.955 2e2c Level-0 table #5: 1200 bytes OK
+2022/04/06-22:21:43.957 2e2c Delete type=0 #3
+2022/04/06-22:21:43.957 2e2c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

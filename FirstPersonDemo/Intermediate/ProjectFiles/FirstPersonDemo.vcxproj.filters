@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstPersonDemo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F75969B1-33BC-4D80-AD4E-659C4DD646CA}</UniqueIdentifier>
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstPersonDemo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7DF96094-D779-473F-A40B-022ABF454DA6}</UniqueIdentifier>
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstPersonDemo">
-      <UniqueIdentifier>{9A3C494E-7CF0-42B6-98B9-703EF444A5DF}</UniqueIdentifier>
+      <UniqueIdentifier>{0B5E7245-6CA6-3198-8C89-93E6DFE4F4A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstPersonDemo\FirstPersonDemo.Build.cs">
       <Filter>Source\FirstPersonDemo</Filter>

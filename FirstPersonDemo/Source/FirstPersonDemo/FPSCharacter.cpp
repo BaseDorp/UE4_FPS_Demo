@@ -160,19 +160,19 @@ void AFPSCharacter::MoveRightLeft(float Value)
 //	return Accelerate(accelDir, prevVelocity, air_accelerate, max_velocity_air);
 //}
 
-FVector AFPSCharacter::Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity)
-{
-	// Vector projection from Current Velocity onto Acceleration Direction
-	float projVelocity = Dot3(prevVelocity, AccelDir);
-	// Accelerated Velocity in direction of movement
-	float accelVelocity = accelerate * GetWorld()->GetTimeSeconds(); // TODO time.deltatimefixed?
-
-	// Makes sure character doesn't exceed Max Velocity
-	if (projVelocity + accelVelocity > maxVelocity)
-	{ accelVelocity = maxVelocity - projVelocity; }
-
-	return prevVelocity + AccelDir * accelVelocity;
-}
+//FVector AFPSCharacter::Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity)
+//{
+//	// Vector projection from Current Velocity onto Acceleration Direction
+//	float projVelocity = Dot3(prevVelocity, AccelDir); // dot3?
+//	// Accelerated Velocity in direction of movement
+//	float accelVelocity = accelerate * GetWorld()->GetTimeSeconds(); // TODO time.deltatimefixed?
+//
+//	// Makes sure character doesn't exceed Max Velocity
+//	if (projVelocity + accelVelocity > maxVelocity)
+//	{ accelVelocity = maxVelocity - projVelocity; }
+//
+//	return prevVelocity + AccelDir * accelVelocity;
+//}
 
 void AFPSCharacter::StartJump()
 {
@@ -218,14 +218,14 @@ void AFPSCharacter::StopSprint()
 
 void AFPSCharacter::PrimaryFire()
 {
-	FHitResult outHit;
-	FVector Direction = Camera->GetForwardVector();
-	FVector Start = Camera->GetComponentLocation();
-	FVector End = Start + (Direction * 5000.0f); // TODO promote to variable
+	//FHitResult outHit;
+	//FVector Direction = Camera->GetForwardVector();
+	//FVector Start = Camera->GetComponentLocation();
+	//FVector End = Start + (Direction * 5000.0f); // TODO promote to variable
 
-	FCollisionQueryParams CollisionParams;
-	CollisionParams.AddIgnoredActor(this->GetOwner());
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	//FCollisionQueryParams CollisionParams;
+	//CollisionParams.AddIgnoredActor(this->GetOwner());
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
 	/*bool isHit = GetWorld()->LineTraceSingleByChannel(outHit, Start, End, ECC_Visibility, CollisionParams);
 	if (AFPSCharacter* otherPlayer = Cast<AFPSCharacter>(outHit.GetActor()))

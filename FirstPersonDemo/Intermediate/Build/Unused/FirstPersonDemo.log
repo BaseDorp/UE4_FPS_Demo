@@ -1,12 +1,6 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo).
-  Building FirstPersonDemoEditor...
-  Using Visual Studio 2019 14.29.30136 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] FPSCharacter.cpp
-    [2/4] UE4Editor-FirstPersonDemo.lib
-       Creating library C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.lib and object C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.exp
-    [3/4] UE4Editor-FirstPersonDemo.dll
-       Creating library C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.suppressed.lib and object C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UE4Editor\Development\FirstPersonDemo\UE4Editor-FirstPersonDemo.suppressed.exp
-    [4/4] FirstPersonDemoEditor.target
-  Total time in Parallel executor: 1.41 seconds
-  Total execution time: 1.81 seconds
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\super\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo).
+  Waiting for 'git status' command to complete
+  Target is up to date
+  Total execution time: 1.27 seconds

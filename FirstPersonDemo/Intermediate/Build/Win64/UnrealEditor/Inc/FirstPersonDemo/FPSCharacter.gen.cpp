@@ -15,10 +15,25 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_FirstPersonDemo();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FIRSTPERSONDEMO_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AFPSCharacter::execRespawn)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Respawn();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AFPSCharacter::execDeath)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Death();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFPSCharacter::execPrimaryFire)
 	{
 		P_FINISH;
@@ -88,17 +103,41 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	{
 		UClass* Class = AFPSCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Death", &AFPSCharacter::execDeath },
 			{ "EndCrouch", &AFPSCharacter::execEndCrouch },
 			{ "EndJump", &AFPSCharacter::execEndJump },
 			{ "MoveForwardBackward", &AFPSCharacter::execMoveForwardBackward },
 			{ "MoveRightLeft", &AFPSCharacter::execMoveRightLeft },
 			{ "PrimaryFire", &AFPSCharacter::execPrimaryFire },
+			{ "Respawn", &AFPSCharacter::execRespawn },
 			{ "StartCrouch", &AFPSCharacter::execStartCrouch },
 			{ "StartJump", &AFPSCharacter::execStartJump },
 			{ "StartSprint", &AFPSCharacter::execStartSprint },
 			{ "StopSprint", &AFPSCharacter::execStopSprint },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFPSCharacter_Death_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_Death_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_Death_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, nullptr, "Death", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_Death_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_Death_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFPSCharacter_Death()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPSCharacter_Death_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFPSCharacter_EndCrouch_Statics
 	{
@@ -163,9 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// moves the character forwards/backwards\n" },
 		{ "ModuleRelativePath", "FPSCharacter.h" },
-		{ "ToolTip", "moves the character forwards/backwards" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, nullptr, "MoveForwardBackward", nullptr, nullptr, sizeof(Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::FPSCharacter_eventMoveForwardBackward_Parms), Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward_Statics::Function_MetaDataParams)) };
@@ -197,9 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// moves the character left/right\n" },
 		{ "ModuleRelativePath", "FPSCharacter.h" },
-		{ "ToolTip", "moves the character left/right" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, nullptr, "MoveRightLeft", nullptr, nullptr, sizeof(Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::FPSCharacter_eventMoveRightLeft_Parms), Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveRightLeft_Statics::Function_MetaDataParams)) };
@@ -231,6 +266,28 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPSCharacter_PrimaryFire_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFPSCharacter_Respawn_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_Respawn_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_Respawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, nullptr, "Respawn", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_Respawn_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_Respawn_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFPSCharacter_Respawn()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPSCharacter_Respawn_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -343,6 +400,10 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonMesh_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ThirdPersonMesh;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MuzzleOffset_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_MuzzleOffset;
@@ -360,6 +421,14 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		static void NewProp_bSprinting_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bSprinting;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_respawnTime_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_respawnTime;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_fireRate_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_fireRate;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
@@ -372,11 +441,13 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstPersonDemo,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFPSCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFPSCharacter_Death, "Death" }, // 227633563
 		{ &Z_Construct_UFunction_AFPSCharacter_EndCrouch, "EndCrouch" }, // 1954397238
 		{ &Z_Construct_UFunction_AFPSCharacter_EndJump, "EndJump" }, // 3375288519
-		{ &Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward, "MoveForwardBackward" }, // 3861946003
-		{ &Z_Construct_UFunction_AFPSCharacter_MoveRightLeft, "MoveRightLeft" }, // 593625517
+		{ &Z_Construct_UFunction_AFPSCharacter_MoveForwardBackward, "MoveForwardBackward" }, // 1018486167
+		{ &Z_Construct_UFunction_AFPSCharacter_MoveRightLeft, "MoveRightLeft" }, // 3184357455
 		{ &Z_Construct_UFunction_AFPSCharacter_PrimaryFire, "PrimaryFire" }, // 2029717485
+		{ &Z_Construct_UFunction_AFPSCharacter_Respawn, "Respawn" }, // 80319547
 		{ &Z_Construct_UFunction_AFPSCharacter_StartCrouch, "StartCrouch" }, // 138753310
 		{ &Z_Construct_UFunction_AFPSCharacter_StartJump, "StartJump" }, // 4023577899
 		{ &Z_Construct_UFunction_AFPSCharacter_StartSprint, "StartSprint" }, // 1680688148
@@ -406,11 +477,20 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_StaticMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_StaticMesh_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ThirdPersonMesh_MetaData[] = {
+		{ "Comment", "// Temporary since I don't have a skeletal mesh for the character\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+		{ "ToolTip", "Temporary since I don't have a skeletal mesh for the character" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ThirdPersonMesh = { "ThirdPersonMesh", nullptr, (EPropertyFlags)0x0010000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, ThirdPersonMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ThirdPersonMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ThirdPersonMesh_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData[] = {
 		{ "Category", "Projectile" },
-		{ "Comment", "// Temporary since I don't have a skeletal mesh for the character\n//UPROPERTY(VisibleAnywhere)\n//\x09UMaterial DefaultMaterial;\n//UPROPERTY(VisibleAnywhere)\n//UMaterial DeadMaterial;\n" },
+		{ "Comment", "// TODO for when third person mode\n" },
 		{ "ModuleRelativePath", "FPSCharacter.h" },
-		{ "ToolTip", "Temporary since I don't have a skeletal mesh for the character\nUPROPERTY(VisibleAnywhere)\n      UMaterial DefaultMaterial;\nUPROPERTY(VisibleAnywhere)\nUMaterial DeadMaterial;" },
+		{ "ToolTip", "TODO for when third person mode" },
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset = { "MuzzleOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, MuzzleOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset_MetaData)) };
@@ -440,6 +520,18 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bSprinting = { "bSprinting", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFPSCharacter), &Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bSprinting_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bSprinting_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bSprinting_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_respawnTime_MetaData[] = {
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_respawnTime = { "respawnTime", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, respawnTime), METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_respawnTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_respawnTime_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_fireRate_MetaData[] = {
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_fireRate = { "fireRate", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPSCharacter, fireRate), METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_fireRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_fireRate_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Projectile" },
 		{ "ModuleRelativePath", "FPSCharacter.h" },
@@ -449,10 +541,13 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFPSCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_Camera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_StaticMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ThirdPersonMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MuzzleOffset,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_MovementSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_SprintMultiplier,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_bSprinting,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_respawnTime,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_fireRate,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_ProjectileClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFPSCharacter_Statics::StaticCppClassTypeInfo = {
@@ -491,9 +586,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AFPSCharacter, AFPSCharacter::StaticClass, TEXT("AFPSCharacter"), &Z_Registration_Info_UClass_AFPSCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPSCharacter), 3887767362U) },
+		{ Z_Construct_UClass_AFPSCharacter, AFPSCharacter::StaticClass, TEXT("AFPSCharacter"), &Z_Registration_Info_UClass_AFPSCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPSCharacter), 654490762U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_1208682706(TEXT("/Script/FirstPersonDemo"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_420628304(TEXT("/Script/FirstPersonDemo"),
 		Z_CompiledInDeferFile_FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

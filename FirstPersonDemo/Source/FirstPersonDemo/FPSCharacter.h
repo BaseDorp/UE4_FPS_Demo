@@ -23,10 +23,8 @@ public:
 	UCameraComponent* Camera;
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* StaticMesh; // Temporary since I don't have a skeletal mesh for the character
-	//UPROPERTY(VisibleAnywhere)
-//	UMaterial DefaultMaterial;
-	//UPROPERTY(VisibleAnywhere)
-	//UMaterial DeadMaterial;
+	UPROPERTY()
+	USkeletalMeshComponent* ThirdPersonMesh; // TODO for when third person mode
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
 	FVector MuzzleOffset;
@@ -38,12 +36,12 @@ public:
 	UPROPERTY(VisibleAnywhere, Category="Movement")
 	bool bSprinting;
 
-	/*UPROPERTY(EditAnywhere, Category = "Movement")
-	float Friction;
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float Acceleration;
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float MaxVelocity;*/
+	FTimerHandle FireRateTimerHandle;
+	FTimerHandle RespawnTimerHandle;
+	UPROPERTY()
+	float respawnTime;
+	UPROPERTY()
+	float fireRate;
 
 protected:
 	// Called when the game starts or when spawned
@@ -52,16 +50,6 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
 	TSubclassOf<class AProjectile> ProjectileClass;
 
-
-	/// <summary>
-	/// Calculates the acceleration for straffing
-	/// </summary>
-	/// <param name="AccelDir"> normalized direction that the player is moving to</param>
-	/// <param name="prevVelocity"> current velocity of the player </param>
-	/// <param name="accelerate"> the server-defined player acceleration value </param>
-	/// <param name="maxVelocity"> the server-defined player max velocity </param>
-	FVector Accelerate(FVector AccelDir, FVector prevVelocity, float accelerate, float maxVelocity);
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -69,36 +57,32 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	// moves the character forwards/backwards
 	UFUNCTION()
 	void MoveForwardBackward(float Value);
-
-	// moves the character left/right
 	UFUNCTION()
 	void MoveRightLeft(float Value);
-
+	
 	UFUNCTION()
 	void StartJump();
-
 	UFUNCTION()
 	void EndJump();
 
 	UFUNCTION()
 	void StartCrouch();
-
 	UFUNCTION()
 	void EndCrouch();
 
 	UFUNCTION()
 	void StartSprint();
-
 	UFUNCTION()
 	void StopSprint();
 
 	UFUNCTION()
 	void PrimaryFire();
 
+	UFUNCTION()
 	void Death();
 
+	UFUNCTION()
 	void Respawn();
 };

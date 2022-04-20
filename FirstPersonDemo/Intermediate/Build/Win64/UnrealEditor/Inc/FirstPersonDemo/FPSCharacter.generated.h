@@ -16,6 +16,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_15_SPARSE_DATA
 #define FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRespawn); \
+	DECLARE_FUNCTION(execDeath); \
 	DECLARE_FUNCTION(execPrimaryFire); \
 	DECLARE_FUNCTION(execStopSprint); \
 	DECLARE_FUNCTION(execStartSprint); \
@@ -29,6 +31,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_FirstPersonDemo_Source_FirstPersonDemo_FPSCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execRespawn); \
+	DECLARE_FUNCTION(execDeath); \
 	DECLARE_FUNCTION(execPrimaryFire); \
 	DECLARE_FUNCTION(execStopSprint); \
 	DECLARE_FUNCTION(execStartSprint); \

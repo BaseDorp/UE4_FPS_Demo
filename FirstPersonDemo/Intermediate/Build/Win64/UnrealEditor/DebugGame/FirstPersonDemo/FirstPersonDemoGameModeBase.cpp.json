@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\source\\firstpersondemo\\firstpersondemogamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\firstpersondemoeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\unrealeditor\\debuggame\\firstpersondemo\\definitions.firstpersondemo.h",
+            "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\source\\firstpersondemo\\firstpersondemogamemodebase.h",
+            "c:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\super\\documents\\unrealprojects\\ue4_fps_demo\\firstpersondemo\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpersondemo\\firstpersondemogamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

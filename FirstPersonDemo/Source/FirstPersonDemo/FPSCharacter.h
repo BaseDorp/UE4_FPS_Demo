@@ -20,7 +20,8 @@ public:
 
 
 	UPROPERTY(VisibleAnywhere)
-	UCameraComponent* Camera;
+	UCameraComponent* FPSCamera;
+	UCameraComponent* TPSCamera;
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* StaticMesh; // Temporary since I don't have a skeletal mesh for the character
 	UPROPERTY()

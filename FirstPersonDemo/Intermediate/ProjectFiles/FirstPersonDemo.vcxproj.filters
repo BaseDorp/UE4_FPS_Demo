@@ -26,6 +26,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\FirstPersonDemo">
       <UniqueIdentifier>{0B5E7245-6CA6-3198-8C89-93E6DFE4F4A2}</UniqueIdentifier>
     </Filter>
@@ -48,6 +54,12 @@
       <Filter>Source\FirstPersonDemo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstPersonDemo\FPSCharacter.h">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonDemo\MovingPlatform.cpp">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonDemo\MovingPlatform.h">
       <Filter>Source\FirstPersonDemo</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonDemo\Projectile.cpp">

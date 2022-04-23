@@ -1,6 +1,34 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\super\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo).
-  Waiting for 'git status' command to complete
-  Target is up to date
-  Total execution time: 1.27 seconds
+  Invalidating makefile for FirstPersonDemoEditor (working set of source files changed)
+  Parsing headers for FirstPersonDemoEditor
+    Running UnrealHeaderTool "C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\FirstPersonDemo.uproject" "C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\FirstPersonDemoEditor\Development\FirstPersonDemoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\super\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for FirstPersonDemoEditor in 3.8566784 seconds
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-0674.dll
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-0674.pdb
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-1065.dll
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-1065.pdb
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-1169.dll
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-1169.pdb
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-7319.dll
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Binaries\Win64\UnrealEditor-FirstPersonDemo-7319.pdb
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo-0674.lib
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo-1065.lib
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo-1169.lib
+  Deleted hot-reload file: C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo-7319.lib
+  Building FirstPersonDemoEditor...
+  Using Visual Studio 2019 14.29.30136 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from FirstPersonDemo unity file: FPSCharacter.cpp, MovingPlatform.cpp
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+  Building 5 actions with 5 processes...
+  [1/5] Compile MovingPlatform.cpp
+  [2/5] Compile MovingPlatform.gen.cpp
+  [3/5] Link UnrealEditor-FirstPersonDemo.lib
+     Creating library C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo.lib and object C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo.exp
+  [4/5] Link UnrealEditor-FirstPersonDemo.dll
+     Creating library C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo.suppressed.lib and object C:\Users\super\Documents\UnrealProjects\UE4_FPS_Demo\FirstPersonDemo\Intermediate\Build\Win64\UnrealEditor\Development\FirstPersonDemo\UnrealEditor-FirstPersonDemo.suppressed.exp
+  [5/5] WriteMetadata FirstPersonDemoEditor.target
+  Total time in Parallel executor: 6.74 seconds
+  Total execution time: 13.87 seconds

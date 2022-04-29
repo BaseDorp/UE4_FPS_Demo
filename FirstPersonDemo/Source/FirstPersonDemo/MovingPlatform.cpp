@@ -10,7 +10,7 @@ AMovingPlatform::AMovingPlatform()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	RootComponent = Mesh;
+	//RootComponent = Mesh;
 
 	Mesh->SetMobility(EComponentMobility::Movable);
 }
@@ -25,6 +25,10 @@ void AMovingPlatform::BeginPlay()
 	{
 		SetReplicates(true);
 		SetReplicateMovement(true);
+
+		GlobalStartLocation = GetActorLocation();
+		// takes the transform and transforms the position to a world location
+		GlobalTargetLocation = GetTransform().TransformPosition(TargetLocation);
 	}
 }
 
@@ -36,7 +40,16 @@ void AMovingPlatform::Tick(float DeltaTime)
 	// Only updates the movement of the actor on the server
 	if (HasAuthority())
 	{
-		SetActorLocation(FVector(GetActorLocation() + FVector(movementSpeed * DeltaTime, 0, 0)));
+		FVector dir = (GlobalTargetLocation - GlobalStartLocation).GetSafeNormal();
+		FVector loc = GetActorLocation();
+		loc += movementSpeed * DeltaTime * dir;
+		SetActorLocation(loc);
+
+		if (GlobalStartLocation.PointsAreNear(GetActorLocation(), GlobalTargetLocation, 5))
+		{
+			FVector Swap = GlobalTargetLocation;
+			GlobalTargetLocation = GlobalStartLocation;
+			GlobalStartLocation = Swap;
+		}
 	}
 }
-

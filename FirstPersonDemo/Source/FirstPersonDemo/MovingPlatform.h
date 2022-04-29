@@ -25,6 +25,13 @@ protected:
 	UPROPERTY(EditAnywhere)
 	int movementSpeed = 50;
 
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+	FVector TargetLocation;
+
+private:
+	FVector GlobalTargetLocation;
+	FVector GlobalStartLocation;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

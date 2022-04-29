@@ -62,6 +62,12 @@
     <ClInclude Include="..\..\Source\FirstPersonDemo\MovingPlatform.h">
       <Filter>Source\FirstPersonDemo</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonDemo\PlatformTrigger.cpp">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonDemo\PlatformTrigger.h">
+      <Filter>Source\FirstPersonDemo</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonDemo\Projectile.cpp">
       <Filter>Source\FirstPersonDemo</Filter>
     </ClCompile>

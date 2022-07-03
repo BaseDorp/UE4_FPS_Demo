@@ -37,19 +37,35 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// Only updates the movement of the actor on the server
-	if (HasAuthority())
+	if (activeTriggers > 0)
 	{
-		FVector dir = (GlobalTargetLocation - GlobalStartLocation).GetSafeNormal();
-		FVector loc = GetActorLocation();
-		loc += movementSpeed * DeltaTime * dir;
-		SetActorLocation(loc);
-
-		if (GlobalStartLocation.PointsAreNear(GetActorLocation(), GlobalTargetLocation, 5))
+		// Only updates the movement of the actor on the server
+		if (HasAuthority())
 		{
-			FVector Swap = GlobalTargetLocation;
-			GlobalTargetLocation = GlobalStartLocation;
-			GlobalStartLocation = Swap;
+			FVector dir = (GlobalTargetLocation - GlobalStartLocation).GetSafeNormal();
+			FVector loc = GetActorLocation();
+			loc += movementSpeed * DeltaTime * dir;
+			SetActorLocation(loc);
+
+			if (GlobalStartLocation.PointsAreNear(GetActorLocation(), GlobalTargetLocation, 5))
+			{
+				FVector Swap = GlobalTargetLocation;
+				GlobalTargetLocation = GlobalStartLocation;
+				GlobalStartLocation = Swap;
+			}
+			
 		}
 	}
+
+	
+}
+
+void AMovingPlatform::AddActiveTrigger()
+{
+	++activeTriggers;
+}
+
+void AMovingPlatform::RemoveActiveTrigger()
+{
+	if (activeTriggers > 0) --activeTriggers;
 }
